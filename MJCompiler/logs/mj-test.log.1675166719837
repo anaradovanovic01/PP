@@ -1,0 +1,291 @@
+INFO  13:01:00,788 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:01:00,823 - #2 program
+INFO  13:01:00,823 - #48 oporavak_od_greske
+INFO  13:01:00,823 - #9 const
+INFO  13:01:00,824 - #48 int
+INFO  13:01:00,824 - #48 nula
+INFO  13:01:00,824 - #35 =
+INFO  13:01:00,824 - #45 0
+INFO  13:01:00,824 - #20 ,
+INFO  13:01:00,824 - #48 jedan
+INFO  13:01:00,824 - #35 =
+INFO  13:01:00,825 - #45 1
+INFO  13:01:00,825 - #18 ;
+INFO  13:01:00,825 - #9 const
+INFO  13:01:00,825 - #48 char
+INFO  13:01:00,825 - #48 slovo
+INFO  13:01:00,825 - #35 =
+INFO  13:01:00,826 - #49 c
+INFO  13:01:00,826 - #18 ;
+INFO  13:01:00,826 - #48 int
+INFO  13:01:00,826 - #48 niz
+INFO  13:01:00,826 - #26 [
+INFO  13:01:00,826 - #27 ]
+INFO  13:01:00,826 - #20 ,
+INFO  13:01:00,826 - #48 niz2
+INFO  13:01:00,827 - #26 [
+INFO  13:01:00,827 - #27 ]
+INFO  13:01:00,827 - #20 ,
+INFO  13:01:00,827 - #48 a
+INFO  13:01:00,827 - #20 ,
+INFO  13:01:00,827 - #48 b
+INFO  13:01:00,827 - #18 ;
+INFO  13:01:00,827 - #24 {
+INFO  13:01:00,828 - #5 void
+INFO  13:01:00,828 - #48 main
+INFO  13:01:00,828 - #22 (
+INFO  13:01:00,828 - #23 )
+INFO  13:01:00,828 - #48 int
+INFO  13:01:00,829 - #48 bodovi
+INFO  13:01:00,829 - #18 ;
+INFO  13:01:00,829 - #48 bool
+INFO  13:01:00,829 - #48 bt
+INFO  13:01:00,829 - #18 ;
+INFO  13:01:00,829 - #24 {
+INFO  13:01:00,829 - #48 a
+INFO  13:01:00,830 - #35 =
+INFO  13:01:00,830 - #48 jedan
+INFO  13:01:00,830 - #18 ;
+INFO  13:01:00,831 - #48 b
+INFO  13:01:00,831 - #35 =
+INFO  13:01:00,831 - #48 nula
+INFO  13:01:00,831 - #18 ;
+INFO  13:01:00,831 - #48 a
+INFO  13:01:00,831 - #38 ++
+INFO  13:01:00,831 - #18 ;
+INFO  13:01:00,831 - #48 b
+INFO  13:01:00,831 - #35 =
+INFO  13:01:00,831 - #48 a
+INFO  13:01:00,831 - #40 +
+INFO  13:01:00,832 - #48 jedan
+INFO  13:01:00,832 - #18 ;
+INFO  13:01:00,832 - #48 niz
+INFO  13:01:00,832 - #26 [
+INFO  13:01:00,832 - #45 0
+INFO  13:01:00,833 - #27 ]
+INFO  13:01:00,833 - #35 =
+INFO  13:01:00,833 - #48 a
+INFO  13:01:00,833 - #18 ;
+INFO  13:01:00,833 - #4 return
+INFO  13:01:00,833 - #18 ;
+INFO  13:01:00,833 - #25 }
+INFO  13:01:00,833 - #25 }
+INFO  13:01:00,837 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          MultipleConst(
+           nula
+            NumConst(
+             0
+            ) [NumConst]
+            SingleConst(
+             jedan
+              NumConst(
+               1
+              ) [NumConst]
+            ) [SingleConst]
+          ) [MultipleConst]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        SingleConst(
+         slovo
+          CharConst(
+           c
+          ) [CharConst]
+        ) [SingleConst]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               bodovi
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVar(
+            Variable(
+             bt
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclL]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  NoStmt(
+                  ) [NoStmt]
+                  Assignment(
+                    DesigStmtExpr(
+                      DesignatorSimple(
+                       a
+                      ) [DesignatorSimple]
+                      Assignop(
+                      ) [Assignop]
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorSimple(
+                             jedan
+                            ) [DesignatorSimple]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [DesigStmtExpr]
+                  ) [Assignment]
+                ) [StmtList]
+                Assignment(
+                  DesigStmtExpr(
+                    DesignatorSimple(
+                     b
+                    ) [DesignatorSimple]
+                    Assignop(
+                    ) [Assignop]
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorSimple(
+                           nula
+                          ) [DesignatorSimple]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [DesigStmtExpr]
+                ) [Assignment]
+              ) [StmtList]
+              Assignment(
+                DesigStmtInc(
+                  DesignatorSimple(
+                   a
+                  ) [DesignatorSimple]
+                ) [DesigStmtInc]
+              ) [Assignment]
+            ) [StmtList]
+            Assignment(
+              DesigStmtExpr(
+                DesignatorSimple(
+                 b
+                ) [DesignatorSimple]
+                Assignop(
+                ) [Assignop]
+                AddExpr(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorSimple(
+                         a
+                        ) [DesignatorSimple]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  FactorTerm(
+                    Var(
+                      DesignatorSimple(
+                       jedan
+                      ) [DesignatorSimple]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [AddExpr]
+              ) [DesigStmtExpr]
+            ) [Assignment]
+          ) [StmtList]
+          Assignment(
+            DesigStmtExpr(
+              DesignatorArr(
+                DesignatorSimple(
+                 niz
+                ) [DesignatorSimple]
+                TermExpr(
+                  FactorTerm(
+                    FactorNumConst(
+                     0
+                    ) [FactorNumConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [DesignatorArr]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorSimple(
+                     a
+                    ) [DesignatorSimple]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesigStmtExpr]
+          ) [Assignment]
+        ) [StmtList]
+        ReturnNoExpr(
+        ) [ReturnNoExpr]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 13:01:00,840 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 13:01:00,841 - Tipovi nisu kopatibilni na liniji 21
+INFO  13:01:00,841 - ===================================

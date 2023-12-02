@@ -1,0 +1,53 @@
+INFO  11:34:24,556 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:34:24,587 - #2 program
+INFO  11:34:24,587 - #46 test_invalid_semantic_1
+INFO  11:34:24,587 - #9 const
+INFO  11:34:24,588 - #46 int
+INFO  11:34:24,588 - #46 nula
+INFO  11:34:24,589 - #35 =
+INFO  11:34:24,589 - #47 c
+INFO  11:34:24,589 - #18 ;
+INFO  11:34:24,589 - #24 {
+INFO  11:34:24,589 - #5 void
+INFO  11:34:24,590 - #46 main
+INFO  11:34:24,590 - #22 (
+INFO  11:34:24,590 - #23 )
+INFO  11:34:24,590 - #24 {
+INFO  11:34:24,590 - #25 }
+INFO  11:34:24,591 - #25 }
+INFO  11:34:24,595 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  ConstDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      SingleConst(
+       nula
+        CharConst(
+         c
+        ) [CharConst]
+      ) [SingleConst]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 11:34:24,597 - Greska na 2: deklarisani tip i tip dodeljene konstante se ne poklapaju
+INFO  11:34:24,598 - ===================================
+ERROR 11:34:24,598 - Parsiranje NIJE uspesno zavrseno!

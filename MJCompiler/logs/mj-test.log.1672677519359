@@ -1,0 +1,35 @@
+INFO  17:36:07,473 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:36:07,506 - #2 program
+INFO  17:36:07,507 - #46 MJProgram
+INFO  17:36:07,507 - #46 int
+INFO  17:36:07,507 - #46 x
+INFO  17:36:07,508 - #18 ;
+INFO  17:36:07,508 - #46 int
+INFO  17:36:07,508 - #46 y
+INFO  17:36:07,508 - #18 ;
+INFO  17:36:07,509 - #24 {
+INFO  17:36:07,509 - #46 int
+INFO  17:36:07,509 - #46 main
+INFO  17:36:07,509 - #22 (
+INFO  17:36:07,509 - #23 )
+INFO  17:36:07,509 - #24 {
+INFO  17:36:07,510 - #3 print
+INFO  17:36:07,510 - #22 (
+INFO  17:36:07,510 - #45 1
+INFO  17:36:07,510 - #23 )
+INFO  17:36:07,511 - #18 ;
+INFO  17:36:07,511 - #46 x
+INFO  17:36:07,511 - #35 =
+INFO  17:36:07,511 - #46 y
+INFO  17:36:07,512 - #40 +
+INFO  17:36:07,512 - #45 5
+INFO  17:36:07,512 - #18 ;
+INFO  17:36:07,513 - #3 print
+INFO  17:36:07,513 - #22 (
+INFO  17:36:07,513 - #45 2
+INFO  17:36:07,513 - #23 )
+INFO  17:36:07,513 - #18 ;
+INFO  17:36:07,513 - #48 if
+ERROR 17:36:07,513 - 
+Sintaksna greska na liniji 12
+ERROR 17:36:07,513 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

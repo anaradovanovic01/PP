@@ -1,0 +1,48 @@
+INFO  17:31:00,579 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:31:00,646 - #2 program
+INFO  17:31:00,646 - #46 test_invalid_semantic_1
+INFO  17:31:00,646 - #46 nepostojeciTip
+INFO  17:31:00,647 - #46 nula
+INFO  17:31:00,647 - #18 ;
+INFO  17:31:00,648 - #24 {
+INFO  17:31:00,648 - #5 void
+INFO  17:31:00,648 - #46 main
+INFO  17:31:00,648 - #22 (
+INFO  17:31:00,649 - #23 )
+INFO  17:31:00,649 - #24 {
+INFO  17:31:00,650 - #25 }
+INFO  17:31:00,650 - #25 }
+INFO  17:31:00,655 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       nepostojeciTip
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:32:35,485 - Nije pronadjen tip nepostojeciTip u tabeli simbola! 
+INFO  17:32:52,484 - ===================================

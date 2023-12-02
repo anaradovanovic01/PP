@@ -1,0 +1,62 @@
+INFO  14:43:42,860 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:43:42,902 - #2 program
+INFO  14:43:42,902 - #48 oporavak_od_greske
+INFO  14:43:42,902 - #48 int
+INFO  14:43:42,903 - #48 niz
+INFO  14:43:42,904 - #26 [
+INFO  14:43:42,904 - #27 ]
+INFO  14:43:42,904 - #20 ,
+INFO  14:43:42,904 - #48 niz2
+INFO  14:43:42,904 - #26 [
+INFO  14:43:42,904 - #27 ]
+INFO  14:43:42,905 - #20 ,
+INFO  14:43:42,905 - #48 a
+INFO  14:43:42,905 - #20 ,
+INFO  14:43:42,905 - #48 b
+INFO  14:43:42,905 - #18 ;
+INFO  14:43:42,905 - #48 int
+INFO  14:43:42,906 - #48 greska
+INFO  14:43:42,906 - #35 =
+ERROR 14:43:42,906 - 
+Sintaksna greska na liniji 7
+INFO  14:43:42,906 - #45 2
+INFO  14:43:42,906 - #18 ;
+INFO  14:43:42,906 - #24 {
+INFO  14:43:42,907 - #5 void
+INFO  14:43:42,907 - #48 main
+ERROR 14:43:42,907 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  14:43:42,908 - #22 (
+INFO  14:43:42,908 - #23 )
+INFO  14:43:42,908 - #24 {
+INFO  14:43:42,909 - #24 {
+INFO  14:43:42,909 - #25 }
+INFO  14:43:42,909 - #25 }
+INFO  14:43:42,909 - #25 }
+INFO  14:43:42,910 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  GlobalDeclListDerived2(
+  ) [GlobalDeclListDerived2]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+        ) [Statements]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  14:43:42,910 - ===================================
+INFO  14:43:42,912 -  Deklarisanih promenljivih ima = 0

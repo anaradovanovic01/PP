@@ -1,0 +1,70 @@
+INFO  17:46:35,683 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:46:35,721 - #2 program
+INFO  17:46:35,722 - #46 test_invalid_syntax_1
+INFO  17:46:35,722 - #46 int
+INFO  17:46:35,723 - #46 nula
+INFO  17:46:35,723 - #18 ;
+INFO  17:46:35,724 - #24 {
+INFO  17:46:35,725 - #5 void
+INFO  17:46:35,725 - #46 main
+INFO  17:46:35,725 - #22 (
+INFO  17:46:35,725 - #23 )
+INFO  17:46:35,726 - #24 {
+INFO  17:46:35,726 - #46 nula
+INFO  17:46:35,727 - #35 =
+INFO  17:46:35,728 - #47 c
+INFO  17:46:35,728 - #18 ;
+INFO  17:46:35,729 - #25 }
+INFO  17:46:35,729 - #25 }
+INFO  17:46:35,735 - ProgramWithMethods(
+  ProgName(
+   test_invalid_syntax_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorCharConst(
+                 c
+                ) [FactorCharConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:46:35,739 - Tipovi nisu kopatibilni na liniji 6
+INFO  17:46:35,739 - ===================================

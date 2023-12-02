@@ -1,0 +1,354 @@
+INFO  14:35:54,405 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:35:54,439 - #2 program
+INFO  14:35:54,439 - #46 MJProgram
+INFO  14:35:54,439 - #7 class
+INFO  14:35:54,440 - #46 A
+INFO  14:35:54,440 - #24 {
+INFO  14:35:54,440 - #25 }
+INFO  14:35:54,441 - #46 int
+INFO  14:35:54,441 - #46 x
+INFO  14:35:54,441 - #18 ;
+INFO  14:35:54,441 - #46 int
+INFO  14:35:54,443 - #46 y
+INFO  14:35:54,443 - #18 ;
+INFO  14:35:54,443 - #7 class
+INFO  14:35:54,443 - #46 B
+INFO  14:35:54,443 - #24 {
+INFO  14:35:54,443 - #24 {
+INFO  14:35:54,443 - #5 void
+INFO  14:35:54,443 - #46 c
+INFO  14:35:54,444 - #22 (
+INFO  14:35:54,444 - #23 )
+INFO  14:35:54,445 - #24 {
+INFO  14:35:54,445 - #25 }
+INFO  14:35:54,445 - #25 }
+INFO  14:35:54,446 - #25 }
+INFO  14:35:54,446 - #24 {
+INFO  14:35:54,446 - #46 a
+INFO  14:35:54,446 - #46 func
+INFO  14:35:54,446 - #22 (
+INFO  14:35:54,446 - #46 int
+INFO  14:35:54,447 - #46 a
+INFO  14:35:54,447 - #23 )
+INFO  14:35:54,447 - #46 int
+INFO  14:35:54,447 - #46 c
+INFO  14:35:54,447 - #18 ;
+INFO  14:35:54,447 - #24 {
+INFO  14:35:54,447 - #46 c
+INFO  14:35:54,447 - #35 =
+INFO  14:35:54,447 - #45 1
+INFO  14:35:54,448 - #18 ;
+INFO  14:35:54,448 - #4 return
+INFO  14:35:54,448 - #46 c
+INFO  14:35:54,449 - #40 +
+INFO  14:35:54,449 - #45 2
+INFO  14:35:54,449 - #18 ;
+INFO  14:35:54,450 - #25 }
+INFO  14:35:54,450 - #46 int
+INFO  14:35:54,450 - #46 main
+INFO  14:35:54,450 - #22 (
+INFO  14:35:54,450 - #23 )
+INFO  14:35:54,450 - #24 {
+INFO  14:35:54,450 - #46 y
+INFO  14:35:54,450 - #35 =
+INFO  14:35:54,450 - #45 2
+INFO  14:35:54,450 - #18 ;
+INFO  14:35:54,450 - #46 x
+INFO  14:35:54,450 - #35 =
+INFO  14:35:54,450 - #46 y
+INFO  14:35:54,450 - #40 +
+INFO  14:35:54,450 - #45 2
+INFO  14:35:54,451 - #18 ;
+INFO  14:35:54,451 - #46 y
+INFO  14:35:54,451 - #35 =
+INFO  14:35:54,451 - #46 k
+INFO  14:35:54,451 - #22 (
+INFO  14:35:54,451 - #23 )
+INFO  14:35:54,451 - #40 +
+INFO  14:35:54,451 - #45 3
+INFO  14:35:54,451 - #18 ;
+INFO  14:35:54,451 - #3 print
+INFO  14:35:54,451 - #22 (
+INFO  14:35:54,451 - #46 y
+INFO  14:35:54,451 - #23 )
+INFO  14:35:54,451 - #18 ;
+INFO  14:35:54,451 - #4 return
+INFO  14:35:54,451 - #45 0
+INFO  14:35:54,452 - #18 ;
+INFO  14:35:54,452 - #25 }
+INFO  14:35:54,452 - #25 }
+INFO  14:35:54,456 - ProgramWithMethods(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ClassDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        ClassDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          ClassDeclWithoutAnything(
+           A
+            WithoutExtends(
+            ) [WithoutExtends]
+            NoVarDeclList(
+            ) [NoVarDeclList]
+          ) [ClassDeclWithoutAnything]
+        ) [ClassDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVar(
+            Variable(
+             x
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVar(
+          Variable(
+           y
+          ) [Variable]
+        ) [SingleVar]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ClassDeclWithMethods(
+     B
+      WithoutExtends(
+      ) [WithoutExtends]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoConstrDeclList(
+      ) [NoConstrDeclList]
+      OneMethodDecl(
+        MethodDecl(
+          MethodVoid(
+           c
+          ) [MethodVoid]
+          NoFormParam(
+          ) [NoFormParam]
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          NoStmt(
+          ) [NoStmt]
+        ) [MethodDecl]
+      ) [OneMethodDecl]
+    ) [ClassDeclWithMethods]
+  ) [ClassDeclarations]
+  MethodDeclarations(
+    OneMethodDecl(
+      MethodDecl(
+        MethodNotVoid(
+          Type(
+           a
+          ) [Type]
+         func
+        ) [MethodNotVoid]
+        FormParams(
+          SingleFormalParamDecl(
+            FormalParDecl(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParDecl]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               c
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            Assignment(
+              DesigStmtExpr(
+                DesignatorSimple(
+                 c
+                ) [DesignatorSimple]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  FactorTerm(
+                    FactorConst(
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [FactorConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [DesigStmtExpr]
+            ) [Assignment]
+          ) [StmtList]
+          ReturnExpr(
+            AddExpr(
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorSimple(
+                     c
+                    ) [DesignatorSimple]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+              AddopPlus(
+              ) [AddopPlus]
+              FactorTerm(
+                FactorConst(
+                  NumConst(
+                   2
+                  ) [NumConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [AddExpr]
+          ) [ReturnExpr]
+        ) [StmtList]
+      ) [MethodDecl]
+    ) [OneMethodDecl]
+    MethodDecl(
+      MethodNotVoid(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodNotVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                NoStmt(
+                ) [NoStmt]
+                Assignment(
+                  DesigStmtExpr(
+                    DesignatorSimple(
+                     y
+                    ) [DesignatorSimple]
+                    Assignop(
+                    ) [Assignop]
+                    TermExpr(
+                      FactorTerm(
+                        FactorConst(
+                          NumConst(
+                           2
+                          ) [NumConst]
+                        ) [FactorConst]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [DesigStmtExpr]
+                ) [Assignment]
+              ) [StmtList]
+              Assignment(
+                DesigStmtExpr(
+                  DesignatorSimple(
+                   x
+                  ) [DesignatorSimple]
+                  Assignop(
+                  ) [Assignop]
+                  AddExpr(
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorSimple(
+                           y
+                          ) [DesignatorSimple]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    FactorTerm(
+                      FactorConst(
+                        NumConst(
+                         2
+                        ) [NumConst]
+                      ) [FactorConst]
+                    ) [FactorTerm]
+                  ) [AddExpr]
+                ) [DesigStmtExpr]
+              ) [Assignment]
+            ) [StmtList]
+            Assignment(
+              DesigStmtExpr(
+                DesignatorSimple(
+                 y
+                ) [DesignatorSimple]
+                Assignop(
+                ) [Assignop]
+                AddExpr(
+                  TermExpr(
+                    FactorTerm(
+                      FuncCallWithoutPars(
+                        DesignatorSimple(
+                         k
+                        ) [DesignatorSimple]
+                      ) [FuncCallWithoutPars]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  FactorTerm(
+                    FactorConst(
+                      NumConst(
+                       3
+                      ) [NumConst]
+                    ) [FactorConst]
+                  ) [FactorTerm]
+                ) [AddExpr]
+              ) [DesigStmtExpr]
+            ) [Assignment]
+          ) [StmtList]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                Var(
+                  DesignatorSimple(
+                   y
+                  ) [DesignatorSimple]
+                ) [Var]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [StmtList]
+        ReturnExpr(
+          TermExpr(
+            FactorTerm(
+              FactorConst(
+                NumConst(
+                 0
+                ) [NumConst]
+              ) [FactorConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [ReturnExpr]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [ProgramWithMethods]
+ERROR 14:35:54,459 - Greska na 7: nije pronadjen tip "a" u tabeli simbola
+ERROR 14:35:54,459 - Greska na 7: promenljiva c je vec deklarisana
+ERROR 14:35:54,459 - Greska na 8: identifikator "c" mora biti promenljiva, element niza ili polje klase
+ERROR 14:35:54,460 - Greska na 17: promenljiva "k" nije defininsana pre koriscenja
+ERROR 14:35:54,460 - Greska na 14: funkcija main mora biti tipa void
+INFO  14:35:54,460 - ===================================
+ERROR 14:35:54,460 - Parsiranje NIJE uspesno zavrseno!

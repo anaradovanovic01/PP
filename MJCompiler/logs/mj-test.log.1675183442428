@@ -1,0 +1,85 @@
+INFO  17:43:30,638 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:43:30,670 - #2 program
+INFO  17:43:30,670 - #46 test_invalid_semantic_1
+INFO  17:43:30,671 - #46 int
+INFO  17:43:30,671 - #46 nula
+INFO  17:43:30,672 - #26 [
+INFO  17:43:30,672 - #27 ]
+INFO  17:43:30,672 - #18 ;
+INFO  17:43:30,672 - #24 {
+INFO  17:43:30,673 - #5 void
+INFO  17:43:30,673 - #46 main
+INFO  17:43:30,673 - #22 (
+INFO  17:43:30,673 - #23 )
+INFO  17:43:30,673 - #24 {
+INFO  17:43:30,674 - #46 nula
+INFO  17:43:30,674 - #35 =
+INFO  17:43:30,674 - #12 new
+INFO  17:43:30,674 - #46 int
+INFO  17:43:30,674 - #26 [
+INFO  17:43:30,674 - #45 0
+INFO  17:43:30,675 - #27 ]
+INFO  17:43:30,675 - #18 ;
+INFO  17:43:30,675 - #25 }
+INFO  17:43:30,675 - #25 }
+INFO  17:43:30,680 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        ArrVariable(
+         nula
+        ) [ArrVariable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorAllocArr(
+                  Type(
+                   int
+                  ) [Type]
+                  TermExpr(
+                    FactorTerm(
+                      FactorNumConst(
+                       0
+                      ) [FactorNumConst]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [FactorAllocArr]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:43:30,681 - Tipovi nisu kopatibilni na liniji 6
+INFO  17:43:30,682 - ===================================

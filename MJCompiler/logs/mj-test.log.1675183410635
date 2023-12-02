@@ -1,0 +1,86 @@
+INFO  17:42:11,055 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:42:11,091 - #2 program
+INFO  17:42:11,091 - #46 test_invalid_semantic_1
+INFO  17:42:11,091 - #46 int
+INFO  17:42:11,092 - #46 nula
+INFO  17:42:11,092 - #26 [
+INFO  17:42:11,092 - #27 ]
+INFO  17:42:11,093 - #18 ;
+INFO  17:42:11,093 - #24 {
+INFO  17:42:11,093 - #5 void
+INFO  17:42:11,094 - #46 main
+INFO  17:42:11,094 - #22 (
+INFO  17:42:11,094 - #23 )
+INFO  17:42:11,094 - #24 {
+INFO  17:42:11,095 - #46 nula
+INFO  17:42:11,095 - #35 =
+INFO  17:42:11,095 - #12 new
+INFO  17:42:11,096 - #46 int
+INFO  17:42:11,096 - #26 [
+INFO  17:42:11,096 - #47 c
+INFO  17:42:11,096 - #27 ]
+INFO  17:42:11,097 - #18 ;
+INFO  17:42:11,097 - #25 }
+INFO  17:42:11,097 - #25 }
+INFO  17:42:11,102 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        ArrVariable(
+         nula
+        ) [ArrVariable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorAllocArr(
+                  Type(
+                   int
+                  ) [Type]
+                  TermExpr(
+                    FactorTerm(
+                      FactorCharConst(
+                       c
+                      ) [FactorCharConst]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [FactorAllocArr]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:42:11,104 - Izraz nije tipa int na liniji 6
+ERROR 17:42:11,105 - Tipovi nisu kopatibilni na liniji 6
+INFO  17:42:11,105 - ===================================

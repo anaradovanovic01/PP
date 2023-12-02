@@ -1,0 +1,52 @@
+INFO  17:39:21,851 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:39:21,889 - #2 program
+INFO  17:39:21,889 - #46 test_invalid_semantic_1
+INFO  17:39:21,889 - #9 const
+INFO  17:39:21,889 - #46 int
+INFO  17:39:21,889 - #46 nula
+INFO  17:39:21,891 - #35 =
+INFO  17:39:21,891 - #47 c
+INFO  17:39:21,891 - #18 ;
+INFO  17:39:21,891 - #24 {
+INFO  17:39:21,891 - #5 void
+INFO  17:39:21,891 - #46 main
+INFO  17:39:21,891 - #22 (
+INFO  17:39:21,891 - #23 )
+INFO  17:39:21,892 - #24 {
+INFO  17:39:21,892 - #25 }
+INFO  17:39:21,892 - #25 }
+INFO  17:39:21,899 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  ConstDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      SingleConst(
+       nula
+        CharConst(
+         c
+        ) [CharConst]
+      ) [SingleConst]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:39:21,902 - Deklarisani tip i tip dodeljene konstante se ne poklapaju. na liniji 2
+INFO  17:39:21,903 - ===================================

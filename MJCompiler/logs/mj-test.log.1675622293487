@@ -1,0 +1,69 @@
+INFO  19:37:07,867 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:37:07,899 - #2 program
+INFO  19:37:07,899 - #46 test_invalid_syntax_1
+INFO  19:37:07,899 - #46 int
+INFO  19:37:07,900 - #46 nula
+INFO  19:37:07,900 - #18 ;
+INFO  19:37:07,900 - #24 {
+INFO  19:37:07,901 - #5 void
+INFO  19:37:07,901 - #46 main
+INFO  19:37:07,901 - #22 (
+INFO  19:37:07,901 - #23 )
+INFO  19:37:07,901 - #24 {
+INFO  19:37:07,901 - #46 nula
+INFO  19:37:07,902 - #35 =
+INFO  19:37:07,902 - #46 nula
+INFO  19:37:07,902 - #46 nula
+ERROR 19:37:07,902 - 
+Sintaksna greska na liniji 6
+INFO  19:37:07,902 - #18 ;
+INFO  19:37:07,902 - #25 }
+INFO  19:37:07,902 - #25 }
+ERROR 19:37:07,903 - Izvrsen oporavak greske pri konstrukciji iskaza dodele do ; u liniji 6
+INFO  19:37:07,907 - ProgramWithMethods(
+  ProgName(
+   test_invalid_syntax_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExprWithError(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            DesigStmtExprError(
+            ) [DesigStmtExprError]
+          ) [DesigStmtExprWithError]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  19:37:07,909 - ===================================
+ERROR 19:37:07,909 - Parsiranje NIJE uspesno zavrseno!

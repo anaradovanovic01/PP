@@ -1,0 +1,78 @@
+program p0_
+
+	const int br1 = 1, br2 = 2;
+	const char ch = 'a';
+	const bool bl1 = true, bl2 = false, bl3 = true;
+	int var1;
+	char string1[], string2[];
+	bool bool1, bool2[], bool3;
+	class A {
+		int a;
+		{ }
+	}
+	class B extends A {
+		{
+			B(){read(var1);}
+			B(int c){}
+			B(int c, int b) int d, g; bool f; {
+				read(A.a);
+				read(string1[1]);
+				print(br1, 2);
+				d = 2;
+				print(d);
+			}
+			void Bmethod(int l1[], bool l2, char str[]) int a; {
+				return;
+			}
+			void noMethod(){}
+		}
+	}
+	
+	{
+		void empty(){}
+		int num5(){return 5;}
+		int num6(int e){return 6;}
+		
+		bool sumMoreThan10(int a, int b) char c; B bigB, smB; bool arr[]; {
+			if (a + b > 10)
+				return true;
+			else {
+				a++;
+				a--;
+				a = -a;
+				c = 'e';
+				empty();
+				smB = new B();
+				while ('a' != 'b')
+					break;
+				bigB = new B(2);
+				bigB.noMethod();
+				if (a == b || a != b && a < b) {
+					c = 'g';
+				}
+				arr = new int[2];
+				[b] = a;
+				[] = a;
+				[b, br1,,] = a;
+				b = (num5() + num5(1)) + 20 - 40 / 10 % 4 * 2;
+				return false;
+			}
+		}
+		
+		int main() bool res; int arr1[];{
+			res = sumMoreThan10(2, br2);
+			if(res){
+				if (br1 >= 1 && br1 <= br2){
+					arr1 = new int[2];
+					arr[0] = 0;
+					arr[1] = 2;
+					while(arr1[0] >= arr[1]){
+						arr.foreach(num => print(num););
+						arr[0]++;
+						if(arr[0] == 1)
+							continue;
+					}
+				}
+			}
+		}
+	}

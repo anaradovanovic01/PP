@@ -1,0 +1,49 @@
+INFO  20:03:53,284 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:03:53,315 - #2 program
+INFO  20:03:53,316 - #46 test_invalid_semantic_1
+INFO  20:03:53,316 - #46 nepostojeciTip
+INFO  20:03:53,316 - #46 nula
+INFO  20:03:53,317 - #18 ;
+INFO  20:03:53,317 - #24 {
+INFO  20:03:53,317 - #5 void
+INFO  20:03:53,317 - #46 main
+INFO  20:03:53,317 - #22 (
+INFO  20:03:53,317 - #23 )
+INFO  20:03:53,318 - #24 {
+INFO  20:03:53,318 - #25 }
+INFO  20:03:53,318 - #25 }
+INFO  20:03:53,322 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       nepostojeciTip
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 20:03:53,325 - Greska: nije pronadjen tip nepostojeciTip u tabeli simbola na liniji 2
+INFO  20:03:53,325 - ===================================
+ERROR 20:03:53,325 - Parsiranje NIJE uspesno zavrseno!

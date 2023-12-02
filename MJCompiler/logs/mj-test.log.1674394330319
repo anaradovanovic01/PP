@@ -1,0 +1,149 @@
+INFO  14:30:02,325 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:30:02,963 - #2 program
+INFO  14:30:02,963 - #48 oporavak_od_greske
+INFO  14:30:02,964 - #9 const
+INFO  14:30:02,968 - #48 int
+INFO  14:30:02,969 - #48 nula
+INFO  14:30:02,984 - #35 =
+INFO  14:30:02,984 - #45 0
+INFO  14:30:02,984 - #20 ,
+INFO  14:30:02,985 - #48 jedan
+INFO  14:30:02,985 - #35 =
+INFO  14:30:02,985 - #45 1
+INFO  14:30:02,985 - #18 ;
+INFO  14:30:02,986 - #9 const
+INFO  14:30:02,987 - #48 char
+INFO  14:30:02,988 - #48 slovo
+INFO  14:30:02,988 - #35 =
+INFO  14:30:02,988 - #49 c
+INFO  14:30:02,988 - #18 ;
+INFO  14:30:02,988 - #48 int
+INFO  14:30:03,003 - #48 niz
+INFO  14:30:03,003 - #26 [
+INFO  14:30:03,003 - #27 ]
+INFO  14:30:03,003 - #20 ,
+INFO  14:30:03,004 - #48 niz2
+INFO  14:30:03,004 - #26 [
+INFO  14:30:03,004 - #27 ]
+INFO  14:30:03,004 - #20 ,
+INFO  14:30:03,005 - #48 a
+INFO  14:30:03,005 - #20 ,
+INFO  14:30:03,005 - #48 b
+INFO  14:30:03,005 - #18 ;
+INFO  14:30:03,005 - #24 {
+INFO  14:30:03,008 - #5 void
+INFO  14:30:03,008 - #48 main
+INFO  14:30:03,008 - #22 (
+INFO  14:30:03,009 - #23 )
+INFO  14:30:03,010 - #48 int
+INFO  14:30:03,012 - #48 bodovi
+INFO  14:30:03,012 - #18 ;
+INFO  14:30:03,012 - #48 bool
+INFO  14:30:03,013 - #48 bt
+INFO  14:30:03,013 - #18 ;
+INFO  14:30:03,013 - #24 {
+INFO  14:30:03,013 - #25 }
+INFO  14:30:03,014 - #25 }
+INFO  14:30:03,040 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          MultipleConst(
+           nula
+            NumConst(
+             0
+            ) [NumConst]
+            SingleConst(
+             jedan
+              NumConst(
+               1
+              ) [NumConst]
+            ) [SingleConst]
+          ) [MultipleConst]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        SingleConst(
+         slovo
+          CharConst(
+           c
+          ) [CharConst]
+        ) [SingleConst]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               bodovi
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVar(
+            Variable(
+             bt
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]

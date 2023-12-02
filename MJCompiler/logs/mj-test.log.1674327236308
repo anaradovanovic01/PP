@@ -1,0 +1,91 @@
+INFO  19:51:08,694 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:51:08,728 - #2 program
+INFO  19:51:08,729 - #48 oporavak_od_greske
+INFO  19:51:08,729 - #9 const
+INFO  19:51:08,730 - #48 int
+INFO  19:51:08,730 - #48 nula
+INFO  19:51:08,731 - #35 =
+INFO  19:51:08,731 - #45 0
+INFO  19:51:08,731 - #20 ,
+INFO  19:51:08,731 - #48 jedan
+INFO  19:51:08,732 - #35 =
+INFO  19:51:08,732 - #45 1
+INFO  19:51:08,732 - #18 ;
+INFO  19:51:08,732 - #9 const
+INFO  19:51:08,733 - #48 char
+INFO  19:51:08,733 - #48 slovo
+INFO  19:51:08,733 - #35 =
+ERROR 19:51:08,733 - 
+Sintaksna greska na liniji 4
+INFO  19:51:08,733 - #48 c
+INFO  19:51:08,733 - #18 ;
+INFO  19:51:08,734 - #48 int
+INFO  19:51:08,734 - #48 niz
+INFO  19:51:08,734 - #26 [
+ERROR 19:51:08,734 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  19:51:08,735 - #27 ]
+INFO  19:51:08,735 - #20 ,
+INFO  19:51:08,735 - #48 niz2
+INFO  19:51:08,735 - #26 [
+INFO  19:51:08,735 - #27 ]
+INFO  19:51:08,735 - #20 ,
+INFO  19:51:08,735 - #48 a
+INFO  19:51:08,735 - #20 ,
+INFO  19:51:08,735 - #48 b
+INFO  19:51:08,735 - #18 ;
+INFO  19:51:08,735 - #24 {
+INFO  19:51:08,736 - #5 void
+INFO  19:51:08,736 - #48 main
+INFO  19:51:08,736 - #22 (
+INFO  19:51:08,736 - #23 )
+INFO  19:51:08,737 - #24 {
+INFO  19:51:08,737 - #25 }
+INFO  19:51:08,738 - #25 }
+INFO  19:51:08,742 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    GlobalDeclListDerived2(
+    ) [GlobalDeclListDerived2]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  19:51:08,744 - ===================================

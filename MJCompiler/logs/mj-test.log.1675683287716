@@ -1,0 +1,110 @@
+INFO  12:34:17,936 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:34:17,976 - #2 program
+INFO  12:34:17,976 - #46 test_invalid_semantic_1
+INFO  12:34:17,976 - #46 int
+INFO  12:34:17,977 - #46 nula
+INFO  12:34:17,977 - #18 ;
+INFO  12:34:17,977 - #46 nepostojeciTip
+INFO  12:34:17,978 - #46 nula
+INFO  12:34:17,978 - #18 ;
+INFO  12:34:17,978 - #9 const
+INFO  12:34:17,978 - #46 int
+INFO  12:34:17,978 - #46 nula
+INFO  12:34:17,978 - #35 =
+INFO  12:34:17,978 - #47 c
+INFO  12:34:17,979 - #18 ;
+INFO  12:34:17,979 - #24 {
+INFO  12:34:17,980 - #5 void
+INFO  12:34:17,980 - #46 main
+INFO  12:34:17,980 - #22 (
+INFO  12:34:17,981 - #23 )
+INFO  12:34:17,981 - #24 {
+INFO  12:34:17,981 - #46 nula
+INFO  12:34:17,982 - #35 =
+INFO  12:34:17,982 - #47 c
+INFO  12:34:17,982 - #18 ;
+INFO  12:34:17,982 - #25 }
+INFO  12:34:17,983 - #25 }
+INFO  12:34:17,987 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVar(
+            Variable(
+             nula
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+         nepostojeciTip
+        ) [Type]
+        SingleVar(
+          Variable(
+           nula
+          ) [Variable]
+        ) [SingleVar]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      SingleConst(
+       nula
+        CharConst(
+         c
+        ) [CharConst]
+      ) [SingleConst]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorConst(
+                  CharConst(
+                   c
+                  ) [CharConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 12:34:17,997 - Greska na 4: nije pronadjen tip "nepostojeciTip" u tabeli simbola
+ERROR 12:34:17,997 - Greska na 4: promenljiva nula je vec deklarisana
+ERROR 12:34:17,997 - Greska na 5: deklarisani tip i tip dodeljene konstante se ne poklapaju
+ERROR 12:34:17,997 - Greska na 9: tipovi nisu kopatibilni
+INFO  12:34:17,998 - ===================================
+ERROR 12:34:17,998 - Parsiranje NIJE uspesno zavrseno!

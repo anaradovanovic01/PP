@@ -1,0 +1,155 @@
+INFO  20:16:58,648 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:16:58,681 - #2 program
+INFO  20:16:58,681 - #46 MJProgram
+INFO  20:16:58,681 - #46 int
+INFO  20:16:58,682 - #46 x
+INFO  20:16:58,683 - #18 ;
+INFO  20:16:58,683 - #46 int
+INFO  20:16:58,683 - #46 y
+INFO  20:16:58,683 - #18 ;
+INFO  20:16:58,683 - #24 {
+INFO  20:16:58,683 - #46 int
+INFO  20:16:58,683 - #46 main
+INFO  20:16:58,683 - #22 (
+INFO  20:16:58,684 - #23 )
+INFO  20:16:58,684 - #24 {
+INFO  20:16:58,684 - #3 print
+INFO  20:16:58,685 - #22 (
+INFO  20:16:58,685 - #45 1
+INFO  20:16:58,685 - #23 )
+INFO  20:16:58,685 - #18 ;
+INFO  20:16:58,685 - #46 x
+INFO  20:16:58,686 - #35 =
+INFO  20:16:58,686 - #46 y
+INFO  20:16:58,687 - #40 +
+INFO  20:16:58,687 - #45 5
+INFO  20:16:58,687 - #18 ;
+INFO  20:16:58,687 - #3 print
+INFO  20:16:58,687 - #22 (
+INFO  20:16:58,688 - #45 2
+INFO  20:16:58,688 - #23 )
+INFO  20:16:58,688 - #18 ;
+INFO  20:16:58,688 - #50 if
+INFO  20:16:58,688 - #22 (
+INFO  20:16:58,688 - #41 -
+INFO  20:16:58,688 - #45 2
+INFO  20:16:58,688 - #23 )
+INFO  20:16:58,688 - #6 break
+INFO  20:16:58,688 - #18 ;
+INFO  20:16:58,688 - #25 }
+INFO  20:16:58,689 - #25 }
+INFO  20:16:58,689 - ProgramWithMethods(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVar(
+         x
+        ) [SingleVar]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+       y
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodType]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              NoStmt(
+              ) [NoStmt]
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    FactorNumConst(
+                     1
+                    ) [FactorNumConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [StmtList]
+            Assignment(
+              DesigStmtExpr(
+                DesignatorOne(
+                 x
+                ) [DesignatorOne]
+                Assignop(
+                ) [Assignop]
+                AddExpr(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorOne(
+                         y
+                        ) [DesignatorOne]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  FactorTerm(
+                    FactorNumConst(
+                     5
+                    ) [FactorNumConst]
+                  ) [FactorTerm]
+                ) [AddExpr]
+              ) [DesigStmtExpr]
+            ) [Assignment]
+          ) [StmtList]
+          PrintStmt(
+            TermExpr(
+              FactorTerm(
+                FactorNumConst(
+                 2
+                ) [FactorNumConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [PrintStmt]
+        ) [StmtList]
+        IfStmt(
+          ConditionTerm(
+            CondTermFact(
+              CondExpr(
+                TermExprMinus(
+                  FactorTerm(
+                    FactorNumConst(
+                     2
+                    ) [FactorNumConst]
+                  ) [FactorTerm]
+                ) [TermExprMinus]
+              ) [CondExpr]
+            ) [CondTermFact]
+          ) [ConditionTerm]
+          Break(
+          ) [Break]
+        ) [IfStmt]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  20:16:58,690 - ===================================
+INFO  20:16:58,728 -  Deklarisanih promenljivih ima = 2

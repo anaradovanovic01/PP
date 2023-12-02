@@ -1,0 +1,91 @@
+======================SEMANTICKA OBRADA========================
+Pretraga na 12(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 13(arr2), nadjeno Var arr2: Arr of int, 2, 1 
+Pretraga na 14(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 15(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 16(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 16(string2), nadjeno Var string2: Arr of char, 2, 0 
+Pretraga na 17(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 17(string1), nadjeno Var string1: char, 1, 0 
+Pretraga na 20(a), nadjeno Var a: int, 3, 1 
+Pretraga na 20(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 21(a), nadjeno Var a: int, 3, 1 
+Pretraga na 22(br1), nadjeno Con br1: int, 3, 0 
+Pretraga na 23(string1), nadjeno Var string1: char, 1, 0 
+Pretraga na 24(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 24(ch), nadjeno Con ch: char, 97, 0 
+Pretraga na 25(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 25(ch), nadjeno Con ch: char, 97, 0 
+Pretraga na 26(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 26(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 27(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 27(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 28(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 28(a), nadjeno Var a: int, 3, 1 
+Pretraga na 29(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 30(string1), nadjeno Var string1: char, 1, 0 
+Pretraga na 31(string1), nadjeno Var string1: char, 1, 0 
+Pretraga na 32(br1), nadjeno Con br1: int, 3, 0 
+Pretraga na 33(string1), nadjeno Var string1: char, 1, 0 
+Pretraga na 34(br1), nadjeno Con br1: int, 3, 0 
+Pretraga na 35(ch), nadjeno Con ch: char, 97, 0 
+Pretraga na 36(bool2), nadjeno Var bool2: Arr of , 4, 0 
+Pretraga na 37(bool2), nadjeno Var bool2: Arr of , 4, 0 
+Pretraga na 38(bool2), nadjeno Var bool2: Arr of , 4, 0 
+Pretraga na 39(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 39(a), nadjeno Var a: int, 3, 1 
+Pretraga na 40(br1), nadjeno Con br1: int, 3, 0 
+Pretraga na 40(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 41(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 41(var1), nadjeno Var var1: int, 0, 0 
+Pretraga na 41(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 42(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 42(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 43(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 43(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+Pretraga na 44(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 44(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 44(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 44(bool1), nadjeno Var bool1: , 3, 0 
+Pretraga na 44(arr1), nadjeno Var arr1: Arr of int, 1, 1 
+======================SINTAKSNA ANALIZA========================
+6 globalnih konstanti
+4 globalnih promenljivih
+2 globalnih nizova
+4 lokalnih promenljivih
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: , -1, -1 
+Prog p0_: notype, 0, 1 
+   Con br1: int, 3, 0 
+   Con br2: int, 2, 0 
+   Con ch: char, 97, 0 
+   Con bl3: , 1, 0 
+   Con bl2: , 0, 0 
+   Con bl1: , 1, 0 
+   Var var1: int, 0, 0 
+   Var string1: char, 1, 0 
+   Var string2: Arr of char, 2, 0 
+   Var bool1: , 3, 0 
+   Var bool2: Arr of , 4, 0 
+   Var bool3: , 5, 0 
+   Meth main: int, 0, 0 
+      Var res: char, 0, 1 
+      Var arr1: Arr of int, 1, 1 
+      Var arr2: Arr of int, 2, 1 
+      Var a: int, 3, 1 
+
+
+

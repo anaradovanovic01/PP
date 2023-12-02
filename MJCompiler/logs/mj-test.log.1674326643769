@@ -1,0 +1,73 @@
+INFO  15:49:45,863 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:49:45,899 - #2 program
+INFO  15:49:45,899 - #48 oporavak_od_greske
+INFO  15:49:45,899 - #48 int
+INFO  15:49:45,900 - #48 niz
+INFO  15:49:45,901 - #26 [
+INFO  15:49:45,901 - #27 ]
+INFO  15:49:45,901 - #20 ,
+INFO  15:49:45,901 - #48 niz2
+INFO  15:49:45,901 - #26 [
+INFO  15:49:45,901 - #27 ]
+INFO  15:49:45,901 - #20 ,
+INFO  15:49:45,901 - #48 a
+INFO  15:49:45,901 - #20 ,
+INFO  15:49:45,901 - #48 b
+INFO  15:49:45,901 - #18 ;
+INFO  15:49:45,901 - #24 {
+INFO  15:49:45,902 - #5 void
+INFO  15:49:45,903 - #48 main
+INFO  15:49:45,903 - #22 (
+INFO  15:49:45,903 - #23 )
+INFO  15:49:45,903 - #24 {
+INFO  15:49:45,904 - #25 }
+INFO  15:49:45,904 - #25 }
+INFO  15:49:45,908 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  15:49:45,908 - ===================================
+INFO  15:49:45,910 - ===================================

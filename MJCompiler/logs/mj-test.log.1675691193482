@@ -1,0 +1,102 @@
+INFO  14:46:09,585 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\oporavak_od_greske_test.mj
+INFO  14:46:09,618 - #2 program
+INFO  14:46:09,618 - #46 MJProgram
+INFO  14:46:09,618 - #46 int
+INFO  14:46:09,619 - #46 x
+INFO  14:46:09,620 - #35 =
+ERROR 14:46:09,621 - 
+Sintaksna greska na liniji 2
+INFO  14:46:09,621 - #20 ,
+INFO  14:46:09,621 - #46 y
+INFO  14:46:09,621 - #18 ;
+INFO  14:46:09,621 - #24 {
+INFO  14:46:09,621 - #5 void
+INFO  14:46:09,622 - #46 main
+ERROR 14:46:09,623 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  14:46:09,623 - #22 (
+INFO  14:46:09,623 - #23 )
+INFO  14:46:09,624 - #24 {
+INFO  14:46:09,625 - #3 print
+INFO  14:46:09,626 - #22 (
+INFO  14:46:09,626 - #45 1
+INFO  14:46:09,626 - #23 )
+INFO  14:46:09,626 - #18 ;
+INFO  14:46:09,626 - #46 x
+INFO  14:46:09,626 - #35 =
+INFO  14:46:09,626 - #46 y
+INFO  14:46:09,627 - #40 +
+INFO  14:46:09,627 - #45 5
+INFO  14:46:09,628 - #41 -
+INFO  14:46:09,628 - #18 ;
+ERROR 14:46:09,628 - 
+Sintaksna greska na liniji 8
+INFO  14:46:09,628 - #3 print
+INFO  14:46:09,629 - #22 (
+INFO  14:46:09,629 - #45 2
+ERROR 14:46:09,629 - Izvrsen oporavak greske pri konstrukciji iskaza dodele do ; u liniji 8
+INFO  14:46:09,629 - #23 )
+INFO  14:46:09,629 - #18 ;
+INFO  14:46:09,629 - #25 }
+INFO  14:46:09,629 - #25 }
+INFO  14:46:09,633 - ProgramWithMethods(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  GlobalDeclListDerived2(
+  ) [GlobalDeclListDerived2]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  FactorConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [PrintStmt]
+          ) [StmtList]
+          Assignment(
+            DesigStmtExprWithError(
+              DesignatorSimple(
+               x
+              ) [DesignatorSimple]
+              Assignop(
+              ) [Assignop]
+              DesigStmtExprError(
+              ) [DesigStmtExprError]
+            ) [DesigStmtExprWithError]
+          ) [Assignment]
+        ) [StmtList]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              FactorConst(
+                NumConst(
+                 2
+                ) [NumConst]
+              ) [FactorConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 14:46:09,637 - Greska na 8: promenljiva "x" nije defininsana pre koriscenja
+INFO  14:46:09,638 - ===================================
+ERROR 14:46:09,638 - Parsiranje NIJE uspesno zavrseno!

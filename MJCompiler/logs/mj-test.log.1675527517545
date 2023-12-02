@@ -1,0 +1,1530 @@
+INFO  17:17:58,360 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:17:58,385 - #2 program
+INFO  17:17:58,385 - #46 test301
+INFO  17:17:58,385 - #9 const
+INFO  17:17:58,386 - #46 int
+INFO  17:17:58,386 - #46 nula
+INFO  17:17:58,386 - #35 =
+INFO  17:17:58,386 - #45 0
+INFO  17:17:58,386 - #18 ;
+INFO  17:17:58,386 - #9 const
+INFO  17:17:58,387 - #46 int
+INFO  17:17:58,387 - #46 jedan
+INFO  17:17:58,387 - #35 =
+INFO  17:17:58,387 - #45 1
+INFO  17:17:58,387 - #18 ;
+INFO  17:17:58,387 - #9 const
+INFO  17:17:58,387 - #46 int
+INFO  17:17:58,387 - #46 pet
+INFO  17:17:58,387 - #35 =
+INFO  17:17:58,387 - #45 5
+INFO  17:17:58,387 - #18 ;
+INFO  17:17:58,387 - #46 int
+INFO  17:17:58,388 - #46 niz
+INFO  17:17:58,388 - #26 [
+INFO  17:17:58,388 - #27 ]
+INFO  17:17:58,388 - #46 a
+ERROR 17:17:58,388 - 
+Sintaksna greska na liniji 9
+INFO  17:17:58,388 - #20 ,
+INFO  17:17:58,388 - #46 b
+INFO  17:17:58,388 - #20 ,
+INFO  17:17:58,388 - #46 niz2
+INFO  17:17:58,388 - #26 [
+INFO  17:17:58,388 - #27 ]
+INFO  17:17:58,388 - #18 ;
+INFO  17:17:58,389 - #46 char
+INFO  17:17:58,389 - #46 nizch
+INFO  17:17:58,389 - #26 [
+ERROR 17:17:58,389 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  17:17:58,389 - #27 ]
+INFO  17:17:58,389 - #18 ;
+INFO  17:17:58,389 - #24 {
+INFO  17:17:58,390 - #5 void
+INFO  17:17:58,390 - #46 main
+INFO  17:17:58,390 - #22 (
+INFO  17:17:58,390 - #23 )
+INFO  17:17:58,390 - #46 int
+INFO  17:17:58,390 - #46 bodovi
+INFO  17:17:58,391 - #18 ;
+INFO  17:17:58,391 - #46 bool
+INFO  17:17:58,391 - #46 bt
+INFO  17:17:58,391 - #18 ;
+INFO  17:17:58,391 - #46 char
+INFO  17:17:58,391 - #46 c1
+INFO  17:17:58,391 - #20 ,
+INFO  17:17:58,391 - #46 c2
+INFO  17:17:58,391 - #18 ;
+INFO  17:17:58,391 - #24 {
+INFO  17:17:58,391 - #46 bodovi
+INFO  17:17:58,391 - #35 =
+INFO  17:17:58,392 - #45 0
+INFO  17:17:58,392 - #18 ;
+INFO  17:17:58,392 - #3 print
+INFO  17:17:58,392 - #22 (
+INFO  17:17:58,392 - #46 bodovi
+INFO  17:17:58,392 - #23 )
+INFO  17:17:58,392 - #18 ;
+INFO  17:17:58,392 - #46 bodovi
+INFO  17:17:58,392 - #35 =
+INFO  17:17:58,393 - #46 jedan
+INFO  17:17:58,393 - #18 ;
+INFO  17:17:58,393 - #46 bodovi
+INFO  17:17:58,393 - #38 ++
+INFO  17:17:58,393 - #18 ;
+INFO  17:17:58,393 - #3 print
+INFO  17:17:58,393 - #22 (
+INFO  17:17:58,393 - #46 bodovi
+INFO  17:17:58,393 - #23 )
+INFO  17:17:58,393 - #18 ;
+INFO  17:17:58,393 - #46 a
+INFO  17:17:58,393 - #35 =
+INFO  17:17:58,393 - #46 pet
+INFO  17:17:58,393 - #18 ;
+INFO  17:17:58,393 - #3 print
+INFO  17:17:58,393 - #22 (
+INFO  17:17:58,393 - #46 a
+INFO  17:17:58,393 - #23 )
+INFO  17:17:58,393 - #18 ;
+INFO  17:17:58,393 - #46 a
+INFO  17:17:58,393 - #38 ++
+INFO  17:17:58,393 - #18 ;
+INFO  17:17:58,394 - #3 print
+INFO  17:17:58,394 - #22 (
+INFO  17:17:58,394 - #46 a
+INFO  17:17:58,394 - #23 )
+INFO  17:17:58,394 - #18 ;
+INFO  17:17:58,394 - #46 bt
+INFO  17:17:58,394 - #35 =
+INFO  17:17:58,394 - #48 true
+INFO  17:17:58,394 - #18 ;
+INFO  17:17:58,394 - #3 print
+INFO  17:17:58,394 - #22 (
+INFO  17:17:58,394 - #46 bt
+INFO  17:17:58,394 - #23 )
+INFO  17:17:58,394 - #18 ;
+INFO  17:17:58,394 - #3 print
+INFO  17:17:58,394 - #22 (
+INFO  17:17:58,394 - #46 a
+INFO  17:17:58,394 - #20 ,
+INFO  17:17:58,394 - #45 2
+INFO  17:17:58,394 - #23 )
+INFO  17:17:58,394 - #18 ;
+INFO  17:17:58,395 - #46 niz
+INFO  17:17:58,395 - #35 =
+INFO  17:17:58,395 - #12 new
+INFO  17:17:58,395 - #46 int
+INFO  17:17:58,395 - #26 [
+INFO  17:17:58,395 - #45 5
+INFO  17:17:58,395 - #27 ]
+INFO  17:17:58,395 - #18 ;
+INFO  17:17:58,395 - #46 niz
+INFO  17:17:58,395 - #26 [
+INFO  17:17:58,395 - #45 0
+INFO  17:17:58,395 - #27 ]
+INFO  17:17:58,395 - #35 =
+INFO  17:17:58,395 - #45 1
+INFO  17:17:58,395 - #18 ;
+INFO  17:17:58,395 - #46 nizch
+INFO  17:17:58,395 - #35 =
+INFO  17:17:58,395 - #12 new
+INFO  17:17:58,395 - #46 char
+INFO  17:17:58,395 - #26 [
+INFO  17:17:58,396 - #45 3
+INFO  17:17:58,396 - #27 ]
+INFO  17:17:58,396 - #18 ;
+INFO  17:17:58,396 - #46 nizch
+INFO  17:17:58,396 - #26 [
+INFO  17:17:58,396 - #45 0
+INFO  17:17:58,396 - #27 ]
+INFO  17:17:58,396 - #35 =
+INFO  17:17:58,396 - #47 a
+INFO  17:17:58,396 - #18 ;
+INFO  17:17:58,396 - #46 niz
+INFO  17:17:58,396 - #26 [
+INFO  17:17:58,396 - #45 1
+INFO  17:17:58,396 - #40 +
+INFO  17:17:58,396 - #45 2
+INFO  17:17:58,397 - #27 ]
+INFO  17:17:58,397 - #35 =
+INFO  17:17:58,397 - #45 1
+INFO  17:17:58,397 - #18 ;
+INFO  17:17:58,397 - #46 nizch
+INFO  17:17:58,397 - #26 [
+INFO  17:17:58,397 - #46 niz
+INFO  17:17:58,397 - #26 [
+INFO  17:17:58,397 - #45 3
+INFO  17:17:58,397 - #27 ]
+INFO  17:17:58,397 - #27 ]
+INFO  17:17:58,397 - #35 =
+INFO  17:17:58,397 - #47 b
+INFO  17:17:58,397 - #18 ;
+INFO  17:17:58,397 - #46 nizch
+INFO  17:17:58,398 - #26 [
+INFO  17:17:58,398 - #45 2
+INFO  17:17:58,398 - #27 ]
+INFO  17:17:58,398 - #35 =
+INFO  17:17:58,398 - #47 c
+INFO  17:17:58,398 - #18 ;
+INFO  17:17:58,398 - #3 print
+INFO  17:17:58,398 - #22 (
+INFO  17:17:58,398 - #46 nizch
+INFO  17:17:58,398 - #26 [
+INFO  17:17:58,398 - #45 1
+INFO  17:17:58,398 - #27 ]
+INFO  17:17:58,398 - #23 )
+INFO  17:17:58,398 - #18 ;
+INFO  17:17:58,398 - #3 print
+INFO  17:17:58,398 - #22 (
+INFO  17:17:58,398 - #46 niz
+INFO  17:17:58,398 - #26 [
+INFO  17:17:58,398 - #45 3
+INFO  17:17:58,398 - #27 ]
+INFO  17:17:58,398 - #23 )
+INFO  17:17:58,398 - #18 ;
+INFO  17:17:58,398 - #3 print
+INFO  17:17:58,398 - #22 (
+INFO  17:17:58,398 - #46 nizch
+INFO  17:17:58,398 - #26 [
+INFO  17:17:58,398 - #45 0
+INFO  17:17:58,399 - #27 ]
+INFO  17:17:58,399 - #23 )
+INFO  17:17:58,399 - #18 ;
+INFO  17:17:58,399 - #46 b
+INFO  17:17:58,399 - #35 =
+INFO  17:17:58,399 - #41 -
+INFO  17:17:58,399 - #46 niz
+INFO  17:17:58,399 - #26 [
+INFO  17:17:58,399 - #45 0
+INFO  17:17:58,399 - #27 ]
+INFO  17:17:58,399 - #18 ;
+INFO  17:17:58,399 - #3 print
+INFO  17:17:58,399 - #22 (
+INFO  17:17:58,399 - #46 b
+INFO  17:17:58,399 - #23 )
+INFO  17:17:58,399 - #18 ;
+INFO  17:17:58,399 - #3 print
+INFO  17:17:58,399 - #22 (
+INFO  17:17:58,399 - #45 5
+INFO  17:17:58,399 - #41 -
+INFO  17:17:58,399 - #45 7
+INFO  17:17:58,400 - #23 )
+INFO  17:17:58,400 - #18 ;
+INFO  17:17:58,400 - #3 print
+INFO  17:17:58,400 - #22 (
+INFO  17:17:58,400 - #45 2
+INFO  17:17:58,400 - #42 *
+INFO  17:17:58,400 - #45 5
+INFO  17:17:58,400 - #23 )
+INFO  17:17:58,400 - #18 ;
+INFO  17:17:58,401 - #3 print
+INFO  17:17:58,401 - #22 (
+INFO  17:17:58,401 - #45 16
+INFO  17:17:58,401 - #43 /
+INFO  17:17:58,401 - #45 3
+INFO  17:17:58,401 - #23 )
+INFO  17:17:58,401 - #18 ;
+INFO  17:17:58,401 - #3 print
+INFO  17:17:58,401 - #22 (
+INFO  17:17:58,401 - #45 16
+INFO  17:17:58,401 - #44 %
+INFO  17:17:58,402 - #45 3
+INFO  17:17:58,402 - #23 )
+INFO  17:17:58,403 - #18 ;
+INFO  17:17:58,403 - #46 b
+INFO  17:17:58,403 - #35 =
+INFO  17:17:58,403 - #22 (
+INFO  17:17:58,403 - #45 10
+INFO  17:17:58,403 - #40 +
+INFO  17:17:58,403 - #45 5
+INFO  17:17:58,403 - #41 -
+INFO  17:17:58,403 - #45 2
+INFO  17:17:58,403 - #23 )
+INFO  17:17:58,403 - #44 %
+INFO  17:17:58,403 - #45 10
+INFO  17:17:58,403 - #18 ;
+INFO  17:17:58,403 - #3 print
+INFO  17:17:58,403 - #22 (
+INFO  17:17:58,403 - #46 b
+INFO  17:17:58,403 - #23 )
+INFO  17:17:58,403 - #18 ;
+INFO  17:17:58,403 - #46 niz
+INFO  17:17:58,403 - #26 [
+INFO  17:17:58,403 - #45 3
+INFO  17:17:58,403 - #27 ]
+INFO  17:17:58,403 - #38 ++
+INFO  17:17:58,403 - #18 ;
+INFO  17:17:58,403 - #3 print
+INFO  17:17:58,404 - #22 (
+INFO  17:17:58,404 - #46 niz
+INFO  17:17:58,404 - #26 [
+INFO  17:17:58,404 - #45 3
+INFO  17:17:58,404 - #27 ]
+INFO  17:17:58,404 - #23 )
+INFO  17:17:58,404 - #18 ;
+INFO  17:17:58,404 - #46 niz
+INFO  17:17:58,404 - #26 [
+INFO  17:17:58,404 - #45 0
+INFO  17:17:58,404 - #27 ]
+INFO  17:17:58,404 - #35 =
+INFO  17:17:58,404 - #46 niz
+INFO  17:17:58,404 - #26 [
+INFO  17:17:58,404 - #45 1
+INFO  17:17:58,404 - #40 +
+INFO  17:17:58,404 - #45 2
+INFO  17:17:58,404 - #27 ]
+INFO  17:17:58,404 - #18 ;
+INFO  17:17:58,404 - #3 print
+INFO  17:17:58,404 - #22 (
+INFO  17:17:58,404 - #46 niz
+INFO  17:17:58,404 - #26 [
+INFO  17:17:58,404 - #45 0
+INFO  17:17:58,404 - #27 ]
+INFO  17:17:58,405 - #23 )
+INFO  17:17:58,405 - #18 ;
+INFO  17:17:58,405 - #46 niz2
+INFO  17:17:58,405 - #35 =
+INFO  17:17:58,405 - #12 new
+INFO  17:17:58,405 - #46 int
+INFO  17:17:58,405 - #26 [
+INFO  17:17:58,405 - #45 3
+INFO  17:17:58,405 - #27 ]
+INFO  17:17:58,405 - #18 ;
+INFO  17:17:58,405 - #46 niz2
+INFO  17:17:58,405 - #26 [
+INFO  17:17:58,405 - #45 0
+INFO  17:17:58,405 - #27 ]
+INFO  17:17:58,405 - #35 =
+INFO  17:17:58,405 - #45 5
+INFO  17:17:58,405 - #18 ;
+INFO  17:17:58,405 - #46 niz2
+INFO  17:17:58,405 - #26 [
+INFO  17:17:58,405 - #45 1
+INFO  17:17:58,405 - #27 ]
+INFO  17:17:58,405 - #35 =
+INFO  17:17:58,405 - #45 6
+INFO  17:17:58,405 - #18 ;
+INFO  17:17:58,405 - #46 niz2
+INFO  17:17:58,405 - #26 [
+INFO  17:17:58,405 - #45 2
+INFO  17:17:58,405 - #27 ]
+INFO  17:17:58,405 - #35 =
+INFO  17:17:58,405 - #45 7
+INFO  17:17:58,405 - #18 ;
+INFO  17:17:58,405 - #3 print
+INFO  17:17:58,405 - #22 (
+INFO  17:17:58,405 - #45 0
+INFO  17:17:58,405 - #23 )
+INFO  17:17:58,405 - #18 ;
+INFO  17:17:58,405 - #26 [
+INFO  17:17:58,406 - #46 a
+INFO  17:17:58,406 - #20 ,
+INFO  17:17:58,406 - #20 ,
+INFO  17:17:58,406 - #46 b
+INFO  17:17:58,406 - #27 ]
+INFO  17:17:58,406 - #35 =
+INFO  17:17:58,407 - #46 niz2
+INFO  17:17:58,407 - #18 ;
+INFO  17:17:58,407 - #3 print
+INFO  17:17:58,407 - #22 (
+INFO  17:17:58,407 - #46 a
+INFO  17:17:58,407 - #23 )
+INFO  17:17:58,407 - #18 ;
+INFO  17:17:58,407 - #3 print
+INFO  17:17:58,407 - #22 (
+INFO  17:17:58,407 - #46 b
+INFO  17:17:58,407 - #23 )
+INFO  17:17:58,407 - #18 ;
+INFO  17:17:58,407 - #26 [
+INFO  17:17:58,407 - #46 c1
+INFO  17:17:58,407 - #20 ,
+INFO  17:17:58,407 - #20 ,
+INFO  17:17:58,407 - #46 c2
+INFO  17:17:58,407 - #27 ]
+INFO  17:17:58,407 - #35 =
+INFO  17:17:58,407 - #46 nizch
+INFO  17:17:58,407 - #18 ;
+INFO  17:17:58,407 - #3 print
+INFO  17:17:58,407 - #22 (
+INFO  17:17:58,407 - #46 c1
+INFO  17:17:58,407 - #20 ,
+INFO  17:17:58,407 - #45 2
+INFO  17:17:58,407 - #23 )
+INFO  17:17:58,407 - #18 ;
+INFO  17:17:58,407 - #3 print
+INFO  17:17:58,407 - #22 (
+INFO  17:17:58,407 - #46 c2
+INFO  17:17:58,407 - #23 )
+INFO  17:17:58,407 - #18 ;
+INFO  17:17:58,407 - #25 }
+INFO  17:17:58,407 - #25 }
+INFO  17:17:58,416 - ProgramWithMethods(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    GlobalDeclListDerived2(
+    ) [GlobalDeclListDerived2]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVar(
+        ArrVariable(
+         nizch
+        ) [ArrVariable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          VarDeclL(
+            NoVarDeclList(
+            ) [NoVarDeclList]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              SingleVar(
+                Variable(
+                 bodovi
+                ) [Variable]
+              ) [SingleVar]
+            ) [VarDecl]
+          ) [VarDeclL]
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            SingleVar(
+              Variable(
+               bt
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          MultipleVars(
+            SingleVar(
+              Variable(
+               c1
+              ) [Variable]
+            ) [SingleVar]
+            Variable(
+             c2
+            ) [Variable]
+          ) [MultipleVars]
+        ) [VarDecl]
+      ) [VarDeclL]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  StmtList(
+                    StmtList(
+                      StmtList(
+                        StmtList(
+                          StmtList(
+                            StmtList(
+                              StmtList(
+                                StmtList(
+                                  StmtList(
+                                    StmtList(
+                                      StmtList(
+                                        StmtList(
+                                          StmtList(
+                                            StmtList(
+                                              StmtList(
+                                                StmtList(
+                                                  StmtList(
+                                                    StmtList(
+                                                      StmtList(
+                                                        StmtList(
+                                                          StmtList(
+                                                            StmtList(
+                                                              StmtList(
+                                                                StmtList(
+                                                                  StmtList(
+                                                                    StmtList(
+                                                                      StmtList(
+                                                                        StmtList(
+                                                                          StmtList(
+                                                                            StmtList(
+                                                                              StmtList(
+                                                                                StmtList(
+                                                                                  StmtList(
+                                                                                    StmtList(
+                                                                                      StmtList(
+                                                                                        StmtList(
+                                                                                          StmtList(
+                                                                                            StmtList(
+                                                                                              StmtList(
+                                                                                                NoStmt(
+                                                                                                ) [NoStmt]
+                                                                                                Assignment(
+                                                                                                  DesigStmtExpr(
+                                                                                                    DesignatorSimple(
+                                                                                                     bodovi
+                                                                                                    ) [DesignatorSimple]
+                                                                                                    Assignop(
+                                                                                                    ) [Assignop]
+                                                                                                    TermExpr(
+                                                                                                      FactorTerm(
+                                                                                                        FactorConst(
+                                                                                                          NumConst(
+                                                                                                           0
+                                                                                                          ) [NumConst]
+                                                                                                        ) [FactorConst]
+                                                                                                      ) [FactorTerm]
+                                                                                                    ) [TermExpr]
+                                                                                                  ) [DesigStmtExpr]
+                                                                                                ) [Assignment]
+                                                                                              ) [StmtList]
+                                                                                              PrintStmt(
+                                                                                                TermExpr(
+                                                                                                  FactorTerm(
+                                                                                                    Var(
+                                                                                                      DesignatorSimple(
+                                                                                                       bodovi
+                                                                                                      ) [DesignatorSimple]
+                                                                                                    ) [Var]
+                                                                                                  ) [FactorTerm]
+                                                                                                ) [TermExpr]
+                                                                                              ) [PrintStmt]
+                                                                                            ) [StmtList]
+                                                                                            Assignment(
+                                                                                              DesigStmtExpr(
+                                                                                                DesignatorSimple(
+                                                                                                 bodovi
+                                                                                                ) [DesignatorSimple]
+                                                                                                Assignop(
+                                                                                                ) [Assignop]
+                                                                                                TermExpr(
+                                                                                                  FactorTerm(
+                                                                                                    Var(
+                                                                                                      DesignatorSimple(
+                                                                                                       jedan
+                                                                                                      ) [DesignatorSimple]
+                                                                                                    ) [Var]
+                                                                                                  ) [FactorTerm]
+                                                                                                ) [TermExpr]
+                                                                                              ) [DesigStmtExpr]
+                                                                                            ) [Assignment]
+                                                                                          ) [StmtList]
+                                                                                          Assignment(
+                                                                                            DesigStmtInc(
+                                                                                              DesignatorSimple(
+                                                                                               bodovi
+                                                                                              ) [DesignatorSimple]
+                                                                                            ) [DesigStmtInc]
+                                                                                          ) [Assignment]
+                                                                                        ) [StmtList]
+                                                                                        PrintStmt(
+                                                                                          TermExpr(
+                                                                                            FactorTerm(
+                                                                                              Var(
+                                                                                                DesignatorSimple(
+                                                                                                 bodovi
+                                                                                                ) [DesignatorSimple]
+                                                                                              ) [Var]
+                                                                                            ) [FactorTerm]
+                                                                                          ) [TermExpr]
+                                                                                        ) [PrintStmt]
+                                                                                      ) [StmtList]
+                                                                                      Assignment(
+                                                                                        DesigStmtExpr(
+                                                                                          DesignatorSimple(
+                                                                                           a
+                                                                                          ) [DesignatorSimple]
+                                                                                          Assignop(
+                                                                                          ) [Assignop]
+                                                                                          TermExpr(
+                                                                                            FactorTerm(
+                                                                                              Var(
+                                                                                                DesignatorSimple(
+                                                                                                 pet
+                                                                                                ) [DesignatorSimple]
+                                                                                              ) [Var]
+                                                                                            ) [FactorTerm]
+                                                                                          ) [TermExpr]
+                                                                                        ) [DesigStmtExpr]
+                                                                                      ) [Assignment]
+                                                                                    ) [StmtList]
+                                                                                    PrintStmt(
+                                                                                      TermExpr(
+                                                                                        FactorTerm(
+                                                                                          Var(
+                                                                                            DesignatorSimple(
+                                                                                             a
+                                                                                            ) [DesignatorSimple]
+                                                                                          ) [Var]
+                                                                                        ) [FactorTerm]
+                                                                                      ) [TermExpr]
+                                                                                    ) [PrintStmt]
+                                                                                  ) [StmtList]
+                                                                                  Assignment(
+                                                                                    DesigStmtInc(
+                                                                                      DesignatorSimple(
+                                                                                       a
+                                                                                      ) [DesignatorSimple]
+                                                                                    ) [DesigStmtInc]
+                                                                                  ) [Assignment]
+                                                                                ) [StmtList]
+                                                                                PrintStmt(
+                                                                                  TermExpr(
+                                                                                    FactorTerm(
+                                                                                      Var(
+                                                                                        DesignatorSimple(
+                                                                                         a
+                                                                                        ) [DesignatorSimple]
+                                                                                      ) [Var]
+                                                                                    ) [FactorTerm]
+                                                                                  ) [TermExpr]
+                                                                                ) [PrintStmt]
+                                                                              ) [StmtList]
+                                                                              Assignment(
+                                                                                DesigStmtExpr(
+                                                                                  DesignatorSimple(
+                                                                                   bt
+                                                                                  ) [DesignatorSimple]
+                                                                                  Assignop(
+                                                                                  ) [Assignop]
+                                                                                  TermExpr(
+                                                                                    FactorTerm(
+                                                                                      FactorConst(
+                                                                                        BoolConstant(
+                                                                                         true
+                                                                                        ) [BoolConstant]
+                                                                                      ) [FactorConst]
+                                                                                    ) [FactorTerm]
+                                                                                  ) [TermExpr]
+                                                                                ) [DesigStmtExpr]
+                                                                              ) [Assignment]
+                                                                            ) [StmtList]
+                                                                            PrintStmt(
+                                                                              TermExpr(
+                                                                                FactorTerm(
+                                                                                  Var(
+                                                                                    DesignatorSimple(
+                                                                                     bt
+                                                                                    ) [DesignatorSimple]
+                                                                                  ) [Var]
+                                                                                ) [FactorTerm]
+                                                                              ) [TermExpr]
+                                                                            ) [PrintStmt]
+                                                                          ) [StmtList]
+                                                                          PrintStmtWithConst(
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                Var(
+                                                                                  DesignatorSimple(
+                                                                                   a
+                                                                                  ) [DesignatorSimple]
+                                                                                ) [Var]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                           2
+                                                                          ) [PrintStmtWithConst]
+                                                                        ) [StmtList]
+                                                                        Assignment(
+                                                                          DesigStmtExpr(
+                                                                            DesignatorSimple(
+                                                                             niz
+                                                                            ) [DesignatorSimple]
+                                                                            Assignop(
+                                                                            ) [Assignop]
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                FactorAllocArr(
+                                                                                  Type(
+                                                                                   int
+                                                                                  ) [Type]
+                                                                                  TermExpr(
+                                                                                    FactorTerm(
+                                                                                      FactorConst(
+                                                                                        NumConst(
+                                                                                         5
+                                                                                        ) [NumConst]
+                                                                                      ) [FactorConst]
+                                                                                    ) [FactorTerm]
+                                                                                  ) [TermExpr]
+                                                                                ) [FactorAllocArr]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                          ) [DesigStmtExpr]
+                                                                        ) [Assignment]
+                                                                      ) [StmtList]
+                                                                      Assignment(
+                                                                        DesigStmtExpr(
+                                                                          DesignatorArr(
+                                                                            DesignatorSimple(
+                                                                             niz
+                                                                            ) [DesignatorSimple]
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                FactorConst(
+                                                                                  NumConst(
+                                                                                   0
+                                                                                  ) [NumConst]
+                                                                                ) [FactorConst]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                          ) [DesignatorArr]
+                                                                          Assignop(
+                                                                          ) [Assignop]
+                                                                          TermExpr(
+                                                                            FactorTerm(
+                                                                              FactorConst(
+                                                                                NumConst(
+                                                                                 1
+                                                                                ) [NumConst]
+                                                                              ) [FactorConst]
+                                                                            ) [FactorTerm]
+                                                                          ) [TermExpr]
+                                                                        ) [DesigStmtExpr]
+                                                                      ) [Assignment]
+                                                                    ) [StmtList]
+                                                                    Assignment(
+                                                                      DesigStmtExpr(
+                                                                        DesignatorSimple(
+                                                                         nizch
+                                                                        ) [DesignatorSimple]
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        TermExpr(
+                                                                          FactorTerm(
+                                                                            FactorAllocArr(
+                                                                              Type(
+                                                                               char
+                                                                              ) [Type]
+                                                                              TermExpr(
+                                                                                FactorTerm(
+                                                                                  FactorConst(
+                                                                                    NumConst(
+                                                                                     3
+                                                                                    ) [NumConst]
+                                                                                  ) [FactorConst]
+                                                                                ) [FactorTerm]
+                                                                              ) [TermExpr]
+                                                                            ) [FactorAllocArr]
+                                                                          ) [FactorTerm]
+                                                                        ) [TermExpr]
+                                                                      ) [DesigStmtExpr]
+                                                                    ) [Assignment]
+                                                                  ) [StmtList]
+                                                                  Assignment(
+                                                                    DesigStmtExpr(
+                                                                      DesignatorArr(
+                                                                        DesignatorSimple(
+                                                                         nizch
+                                                                        ) [DesignatorSimple]
+                                                                        TermExpr(
+                                                                          FactorTerm(
+                                                                            FactorConst(
+                                                                              NumConst(
+                                                                               0
+                                                                              ) [NumConst]
+                                                                            ) [FactorConst]
+                                                                          ) [FactorTerm]
+                                                                        ) [TermExpr]
+                                                                      ) [DesignatorArr]
+                                                                      Assignop(
+                                                                      ) [Assignop]
+                                                                      TermExpr(
+                                                                        FactorTerm(
+                                                                          FactorConst(
+                                                                            CharConst(
+                                                                             a
+                                                                            ) [CharConst]
+                                                                          ) [FactorConst]
+                                                                        ) [FactorTerm]
+                                                                      ) [TermExpr]
+                                                                    ) [DesigStmtExpr]
+                                                                  ) [Assignment]
+                                                                ) [StmtList]
+                                                                Assignment(
+                                                                  DesigStmtExpr(
+                                                                    DesignatorArr(
+                                                                      DesignatorSimple(
+                                                                       niz
+                                                                      ) [DesignatorSimple]
+                                                                      AddExpr(
+                                                                        TermExpr(
+                                                                          FactorTerm(
+                                                                            FactorConst(
+                                                                              NumConst(
+                                                                               1
+                                                                              ) [NumConst]
+                                                                            ) [FactorConst]
+                                                                          ) [FactorTerm]
+                                                                        ) [TermExpr]
+                                                                        AddopPlus(
+                                                                        ) [AddopPlus]
+                                                                        FactorTerm(
+                                                                          FactorConst(
+                                                                            NumConst(
+                                                                             2
+                                                                            ) [NumConst]
+                                                                          ) [FactorConst]
+                                                                        ) [FactorTerm]
+                                                                      ) [AddExpr]
+                                                                    ) [DesignatorArr]
+                                                                    Assignop(
+                                                                    ) [Assignop]
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        FactorConst(
+                                                                          NumConst(
+                                                                           1
+                                                                          ) [NumConst]
+                                                                        ) [FactorConst]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [DesigStmtExpr]
+                                                                ) [Assignment]
+                                                              ) [StmtList]
+                                                              Assignment(
+                                                                DesigStmtExpr(
+                                                                  DesignatorArr(
+                                                                    DesignatorSimple(
+                                                                     nizch
+                                                                    ) [DesignatorSimple]
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        Var(
+                                                                          DesignatorArr(
+                                                                            DesignatorSimple(
+                                                                             niz
+                                                                            ) [DesignatorSimple]
+                                                                            TermExpr(
+                                                                              FactorTerm(
+                                                                                FactorConst(
+                                                                                  NumConst(
+                                                                                   3
+                                                                                  ) [NumConst]
+                                                                                ) [FactorConst]
+                                                                              ) [FactorTerm]
+                                                                            ) [TermExpr]
+                                                                          ) [DesignatorArr]
+                                                                        ) [Var]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [DesignatorArr]
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  TermExpr(
+                                                                    FactorTerm(
+                                                                      FactorConst(
+                                                                        CharConst(
+                                                                         b
+                                                                        ) [CharConst]
+                                                                      ) [FactorConst]
+                                                                    ) [FactorTerm]
+                                                                  ) [TermExpr]
+                                                                ) [DesigStmtExpr]
+                                                              ) [Assignment]
+                                                            ) [StmtList]
+                                                            Assignment(
+                                                              DesigStmtExpr(
+                                                                DesignatorArr(
+                                                                  DesignatorSimple(
+                                                                   nizch
+                                                                  ) [DesignatorSimple]
+                                                                  TermExpr(
+                                                                    FactorTerm(
+                                                                      FactorConst(
+                                                                        NumConst(
+                                                                         2
+                                                                        ) [NumConst]
+                                                                      ) [FactorConst]
+                                                                    ) [FactorTerm]
+                                                                  ) [TermExpr]
+                                                                ) [DesignatorArr]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                TermExpr(
+                                                                  FactorTerm(
+                                                                    FactorConst(
+                                                                      CharConst(
+                                                                       c
+                                                                      ) [CharConst]
+                                                                    ) [FactorConst]
+                                                                  ) [FactorTerm]
+                                                                ) [TermExpr]
+                                                              ) [DesigStmtExpr]
+                                                            ) [Assignment]
+                                                          ) [StmtList]
+                                                          PrintStmt(
+                                                            TermExpr(
+                                                              FactorTerm(
+                                                                Var(
+                                                                  DesignatorArr(
+                                                                    DesignatorSimple(
+                                                                     nizch
+                                                                    ) [DesignatorSimple]
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        FactorConst(
+                                                                          NumConst(
+                                                                           1
+                                                                          ) [NumConst]
+                                                                        ) [FactorConst]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [DesignatorArr]
+                                                                ) [Var]
+                                                              ) [FactorTerm]
+                                                            ) [TermExpr]
+                                                          ) [PrintStmt]
+                                                        ) [StmtList]
+                                                        PrintStmt(
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              Var(
+                                                                DesignatorArr(
+                                                                  DesignatorSimple(
+                                                                   niz
+                                                                  ) [DesignatorSimple]
+                                                                  TermExpr(
+                                                                    FactorTerm(
+                                                                      FactorConst(
+                                                                        NumConst(
+                                                                         3
+                                                                        ) [NumConst]
+                                                                      ) [FactorConst]
+                                                                    ) [FactorTerm]
+                                                                  ) [TermExpr]
+                                                                ) [DesignatorArr]
+                                                              ) [Var]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                        ) [PrintStmt]
+                                                      ) [StmtList]
+                                                      PrintStmt(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            Var(
+                                                              DesignatorArr(
+                                                                DesignatorSimple(
+                                                                 nizch
+                                                                ) [DesignatorSimple]
+                                                                TermExpr(
+                                                                  FactorTerm(
+                                                                    FactorConst(
+                                                                      NumConst(
+                                                                       0
+                                                                      ) [NumConst]
+                                                                    ) [FactorConst]
+                                                                  ) [FactorTerm]
+                                                                ) [TermExpr]
+                                                              ) [DesignatorArr]
+                                                            ) [Var]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [PrintStmt]
+                                                    ) [StmtList]
+                                                    Assignment(
+                                                      DesigStmtExpr(
+                                                        DesignatorSimple(
+                                                         b
+                                                        ) [DesignatorSimple]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        TermExprMinus(
+                                                          FactorTerm(
+                                                            Var(
+                                                              DesignatorArr(
+                                                                DesignatorSimple(
+                                                                 niz
+                                                                ) [DesignatorSimple]
+                                                                TermExpr(
+                                                                  FactorTerm(
+                                                                    FactorConst(
+                                                                      NumConst(
+                                                                       0
+                                                                      ) [NumConst]
+                                                                    ) [FactorConst]
+                                                                  ) [FactorTerm]
+                                                                ) [TermExpr]
+                                                              ) [DesignatorArr]
+                                                            ) [Var]
+                                                          ) [FactorTerm]
+                                                        ) [TermExprMinus]
+                                                      ) [DesigStmtExpr]
+                                                    ) [Assignment]
+                                                  ) [StmtList]
+                                                  PrintStmt(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        Var(
+                                                          DesignatorSimple(
+                                                           b
+                                                          ) [DesignatorSimple]
+                                                        ) [Var]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [PrintStmt]
+                                                ) [StmtList]
+                                                PrintStmt(
+                                                  AddExpr(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        FactorConst(
+                                                          NumConst(
+                                                           5
+                                                          ) [NumConst]
+                                                        ) [FactorConst]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                    AddopMinus(
+                                                    ) [AddopMinus]
+                                                    FactorTerm(
+                                                      FactorConst(
+                                                        NumConst(
+                                                         7
+                                                        ) [NumConst]
+                                                      ) [FactorConst]
+                                                    ) [FactorTerm]
+                                                  ) [AddExpr]
+                                                ) [PrintStmt]
+                                              ) [StmtList]
+                                              PrintStmt(
+                                                TermExpr(
+                                                  MulTerm(
+                                                    FactorTerm(
+                                                      FactorConst(
+                                                        NumConst(
+                                                         2
+                                                        ) [NumConst]
+                                                      ) [FactorConst]
+                                                    ) [FactorTerm]
+                                                    MulopMult(
+                                                    ) [MulopMult]
+                                                    FactorConst(
+                                                      NumConst(
+                                                       5
+                                                      ) [NumConst]
+                                                    ) [FactorConst]
+                                                  ) [MulTerm]
+                                                ) [TermExpr]
+                                              ) [PrintStmt]
+                                            ) [StmtList]
+                                            PrintStmt(
+                                              TermExpr(
+                                                MulTerm(
+                                                  FactorTerm(
+                                                    FactorConst(
+                                                      NumConst(
+                                                       16
+                                                      ) [NumConst]
+                                                    ) [FactorConst]
+                                                  ) [FactorTerm]
+                                                  MulopDiv(
+                                                  ) [MulopDiv]
+                                                  FactorConst(
+                                                    NumConst(
+                                                     3
+                                                    ) [NumConst]
+                                                  ) [FactorConst]
+                                                ) [MulTerm]
+                                              ) [TermExpr]
+                                            ) [PrintStmt]
+                                          ) [StmtList]
+                                          PrintStmt(
+                                            TermExpr(
+                                              MulTerm(
+                                                FactorTerm(
+                                                  FactorConst(
+                                                    NumConst(
+                                                     16
+                                                    ) [NumConst]
+                                                  ) [FactorConst]
+                                                ) [FactorTerm]
+                                                MulopMod(
+                                                ) [MulopMod]
+                                                FactorConst(
+                                                  NumConst(
+                                                   3
+                                                  ) [NumConst]
+                                                ) [FactorConst]
+                                              ) [MulTerm]
+                                            ) [TermExpr]
+                                          ) [PrintStmt]
+                                        ) [StmtList]
+                                        Assignment(
+                                          DesigStmtExpr(
+                                            DesignatorSimple(
+                                             b
+                                            ) [DesignatorSimple]
+                                            Assignop(
+                                            ) [Assignop]
+                                            TermExpr(
+                                              MulTerm(
+                                                FactorTerm(
+                                                  FactorExpr(
+                                                    AddExpr(
+                                                      AddExpr(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            FactorConst(
+                                                              NumConst(
+                                                               10
+                                                              ) [NumConst]
+                                                            ) [FactorConst]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                        AddopPlus(
+                                                        ) [AddopPlus]
+                                                        FactorTerm(
+                                                          FactorConst(
+                                                            NumConst(
+                                                             5
+                                                            ) [NumConst]
+                                                          ) [FactorConst]
+                                                        ) [FactorTerm]
+                                                      ) [AddExpr]
+                                                      AddopMinus(
+                                                      ) [AddopMinus]
+                                                      FactorTerm(
+                                                        FactorConst(
+                                                          NumConst(
+                                                           2
+                                                          ) [NumConst]
+                                                        ) [FactorConst]
+                                                      ) [FactorTerm]
+                                                    ) [AddExpr]
+                                                  ) [FactorExpr]
+                                                ) [FactorTerm]
+                                                MulopMod(
+                                                ) [MulopMod]
+                                                FactorConst(
+                                                  NumConst(
+                                                   10
+                                                  ) [NumConst]
+                                                ) [FactorConst]
+                                              ) [MulTerm]
+                                            ) [TermExpr]
+                                          ) [DesigStmtExpr]
+                                        ) [Assignment]
+                                      ) [StmtList]
+                                      PrintStmt(
+                                        TermExpr(
+                                          FactorTerm(
+                                            Var(
+                                              DesignatorSimple(
+                                               b
+                                              ) [DesignatorSimple]
+                                            ) [Var]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [PrintStmt]
+                                    ) [StmtList]
+                                    Assignment(
+                                      DesigStmtInc(
+                                        DesignatorArr(
+                                          DesignatorSimple(
+                                           niz
+                                          ) [DesignatorSimple]
+                                          TermExpr(
+                                            FactorTerm(
+                                              FactorConst(
+                                                NumConst(
+                                                 3
+                                                ) [NumConst]
+                                              ) [FactorConst]
+                                            ) [FactorTerm]
+                                          ) [TermExpr]
+                                        ) [DesignatorArr]
+                                      ) [DesigStmtInc]
+                                    ) [Assignment]
+                                  ) [StmtList]
+                                  PrintStmt(
+                                    TermExpr(
+                                      FactorTerm(
+                                        Var(
+                                          DesignatorArr(
+                                            DesignatorSimple(
+                                             niz
+                                            ) [DesignatorSimple]
+                                            TermExpr(
+                                              FactorTerm(
+                                                FactorConst(
+                                                  NumConst(
+                                                   3
+                                                  ) [NumConst]
+                                                ) [FactorConst]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [DesignatorArr]
+                                        ) [Var]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [PrintStmt]
+                                ) [StmtList]
+                                Assignment(
+                                  DesigStmtExpr(
+                                    DesignatorArr(
+                                      DesignatorSimple(
+                                       niz
+                                      ) [DesignatorSimple]
+                                      TermExpr(
+                                        FactorTerm(
+                                          FactorConst(
+                                            NumConst(
+                                             0
+                                            ) [NumConst]
+                                          ) [FactorConst]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [DesignatorArr]
+                                    Assignop(
+                                    ) [Assignop]
+                                    TermExpr(
+                                      FactorTerm(
+                                        Var(
+                                          DesignatorArr(
+                                            DesignatorSimple(
+                                             niz
+                                            ) [DesignatorSimple]
+                                            AddExpr(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  FactorConst(
+                                                    NumConst(
+                                                     1
+                                                    ) [NumConst]
+                                                  ) [FactorConst]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                              AddopPlus(
+                                              ) [AddopPlus]
+                                              FactorTerm(
+                                                FactorConst(
+                                                  NumConst(
+                                                   2
+                                                  ) [NumConst]
+                                                ) [FactorConst]
+                                              ) [FactorTerm]
+                                            ) [AddExpr]
+                                          ) [DesignatorArr]
+                                        ) [Var]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [DesigStmtExpr]
+                                ) [Assignment]
+                              ) [StmtList]
+                              PrintStmt(
+                                TermExpr(
+                                  FactorTerm(
+                                    Var(
+                                      DesignatorArr(
+                                        DesignatorSimple(
+                                         niz
+                                        ) [DesignatorSimple]
+                                        TermExpr(
+                                          FactorTerm(
+                                            FactorConst(
+                                              NumConst(
+                                               0
+                                              ) [NumConst]
+                                            ) [FactorConst]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [DesignatorArr]
+                                    ) [Var]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [PrintStmt]
+                            ) [StmtList]
+                            Assignment(
+                              DesigStmtExpr(
+                                DesignatorSimple(
+                                 niz2
+                                ) [DesignatorSimple]
+                                Assignop(
+                                ) [Assignop]
+                                TermExpr(
+                                  FactorTerm(
+                                    FactorAllocArr(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      TermExpr(
+                                        FactorTerm(
+                                          FactorConst(
+                                            NumConst(
+                                             3
+                                            ) [NumConst]
+                                          ) [FactorConst]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [FactorAllocArr]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [DesigStmtExpr]
+                            ) [Assignment]
+                          ) [StmtList]
+                          Assignment(
+                            DesigStmtExpr(
+                              DesignatorArr(
+                                DesignatorSimple(
+                                 niz2
+                                ) [DesignatorSimple]
+                                TermExpr(
+                                  FactorTerm(
+                                    FactorConst(
+                                      NumConst(
+                                       0
+                                      ) [NumConst]
+                                    ) [FactorConst]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [DesignatorArr]
+                              Assignop(
+                              ) [Assignop]
+                              TermExpr(
+                                FactorTerm(
+                                  FactorConst(
+                                    NumConst(
+                                     5
+                                    ) [NumConst]
+                                  ) [FactorConst]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [DesigStmtExpr]
+                          ) [Assignment]
+                        ) [StmtList]
+                        Assignment(
+                          DesigStmtExpr(
+                            DesignatorArr(
+                              DesignatorSimple(
+                               niz2
+                              ) [DesignatorSimple]
+                              TermExpr(
+                                FactorTerm(
+                                  FactorConst(
+                                    NumConst(
+                                     1
+                                    ) [NumConst]
+                                  ) [FactorConst]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [DesignatorArr]
+                            Assignop(
+                            ) [Assignop]
+                            TermExpr(
+                              FactorTerm(
+                                FactorConst(
+                                  NumConst(
+                                   6
+                                  ) [NumConst]
+                                ) [FactorConst]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [DesigStmtExpr]
+                        ) [Assignment]
+                      ) [StmtList]
+                      Assignment(
+                        DesigStmtExpr(
+                          DesignatorArr(
+                            DesignatorSimple(
+                             niz2
+                            ) [DesignatorSimple]
+                            TermExpr(
+                              FactorTerm(
+                                FactorConst(
+                                  NumConst(
+                                   2
+                                  ) [NumConst]
+                                ) [FactorConst]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [DesignatorArr]
+                          Assignop(
+                          ) [Assignop]
+                          TermExpr(
+                            FactorTerm(
+                              FactorConst(
+                                NumConst(
+                                 7
+                                ) [NumConst]
+                              ) [FactorConst]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [DesigStmtExpr]
+                      ) [Assignment]
+                    ) [StmtList]
+                    PrintStmt(
+                      TermExpr(
+                        FactorTerm(
+                          FactorConst(
+                            NumConst(
+                             0
+                            ) [NumConst]
+                          ) [FactorConst]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [PrintStmt]
+                  ) [StmtList]
+                  Assignment(
+                    DesigStmtMultiple(
+                      DesignatorStmtList(
+                        Desig(
+                          DesignatorSimple(
+                           a
+                          ) [DesignatorSimple]
+                        ) [Desig]
+                        DesignatorStmtList(
+                          NoDesig(
+                          ) [NoDesig]
+                          DesigStmtListOne(
+                            Desig(
+                              DesignatorSimple(
+                               b
+                              ) [DesignatorSimple]
+                            ) [Desig]
+                          ) [DesigStmtListOne]
+                        ) [DesignatorStmtList]
+                      ) [DesignatorStmtList]
+                      DesignatorSimple(
+                       niz2
+                      ) [DesignatorSimple]
+                    ) [DesigStmtMultiple]
+                  ) [Assignment]
+                ) [StmtList]
+                PrintStmt(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorSimple(
+                         a
+                        ) [DesignatorSimple]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [PrintStmt]
+              ) [StmtList]
+              PrintStmt(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      DesignatorSimple(
+                       b
+                      ) [DesignatorSimple]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [PrintStmt]
+            ) [StmtList]
+            Assignment(
+              DesigStmtMultiple(
+                DesignatorStmtList(
+                  Desig(
+                    DesignatorSimple(
+                     c1
+                    ) [DesignatorSimple]
+                  ) [Desig]
+                  DesignatorStmtList(
+                    NoDesig(
+                    ) [NoDesig]
+                    DesigStmtListOne(
+                      Desig(
+                        DesignatorSimple(
+                         c2
+                        ) [DesignatorSimple]
+                      ) [Desig]
+                    ) [DesigStmtListOne]
+                  ) [DesignatorStmtList]
+                ) [DesignatorStmtList]
+                DesignatorSimple(
+                 nizch
+                ) [DesignatorSimple]
+              ) [DesigStmtMultiple]
+            ) [Assignment]
+          ) [StmtList]
+          PrintStmtWithConst(
+            TermExpr(
+              FactorTerm(
+                Var(
+                  DesignatorSimple(
+                   c1
+                  ) [DesignatorSimple]
+                ) [Var]
+              ) [FactorTerm]
+            ) [TermExpr]
+           2
+          ) [PrintStmtWithConst]
+        ) [StmtList]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              Var(
+                DesignatorSimple(
+                 c2
+                ) [DesignatorSimple]
+              ) [Var]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 20
+ERROR 17:17:58,420 - Tipovi nisu kopatibilni na liniji 20
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 23
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 23
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 24
+ERROR 17:17:58,420 - Izraz mora biti tipa int, char ili bool na liniji 24
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 25
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 26
+ERROR 17:17:58,420 - Izraz mora biti tipa int, char ili bool na liniji 26
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 29
+ERROR 17:17:58,420 - Izraz mora biti tipa int, char ili bool na liniji 29
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 30
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 31
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 34
+ERROR 17:17:58,420 - Promenljiva nije defininsana pre koriscenja na liniji 35
+ERROR 17:17:58,420 - Izraz nije tipa int na liniji 35
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 38
+ERROR 17:17:58,421 - Izraz mora biti tipa int, char ili bool na liniji 38
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 40
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 40
+ERROR 17:17:58,421 - Izraz nije tipa int na liniji 40
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 41
+ERROR 17:17:58,421 - Izraz mora biti tipa int, char ili bool na liniji 41
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 46
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 47
+ERROR 17:17:58,421 - Izraz mora biti tipa int, char ili bool na liniji 47
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 48
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 49
+ERROR 17:17:58,421 - Izraz mora biti tipa int, char ili bool na liniji 49
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 50
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 50
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 51
+ERROR 17:17:58,421 - Izraz mora biti tipa int, char ili bool na liniji 51
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 52
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 53
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 54
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 55
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 57
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 57
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 57
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 58
+ERROR 17:17:58,421 - Izraz mora biti tipa int, char ili bool na liniji 58
+ERROR 17:17:58,421 - Promenljiva nije defininsana pre koriscenja na liniji 59
+ERROR 17:17:58,421 - Izraz mora biti tipa int, char ili bool na liniji 59
+INFO  17:17:58,421 - ===================================
+ERROR 17:17:58,422 - Parsiranje NIJE uspesno zavrseno!

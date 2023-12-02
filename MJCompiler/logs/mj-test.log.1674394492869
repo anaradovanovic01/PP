@@ -1,0 +1,172 @@
+INFO  14:32:42,866 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:32:42,938 - #2 program
+INFO  14:32:42,938 - #48 oporavak_od_greske
+INFO  14:32:42,938 - #9 const
+INFO  14:32:42,940 - #48 int
+INFO  14:32:42,940 - #48 nula
+INFO  14:32:42,941 - #35 =
+INFO  14:32:42,941 - #45 0
+INFO  14:32:42,941 - #20 ,
+INFO  14:32:42,941 - #48 jedan
+INFO  14:32:42,941 - #35 =
+INFO  14:32:42,942 - #45 1
+INFO  14:32:42,942 - #18 ;
+INFO  14:32:42,942 - #9 const
+INFO  14:32:42,943 - #48 char
+INFO  14:32:42,943 - #48 slovo
+INFO  14:32:42,943 - #35 =
+INFO  14:32:42,943 - #49 c
+INFO  14:32:42,943 - #18 ;
+INFO  14:32:42,943 - #9 const
+INFO  14:32:42,944 - #48 int
+INFO  14:32:42,944 - #48 jedan
+INFO  14:32:42,944 - #35 =
+INFO  14:32:42,944 - #45 1
+INFO  14:32:42,944 - #18 ;
+INFO  14:32:42,944 - #48 int
+INFO  14:32:42,944 - #48 niz
+INFO  14:32:42,944 - #26 [
+INFO  14:32:42,944 - #27 ]
+INFO  14:32:42,945 - #20 ,
+INFO  14:32:42,945 - #48 niz2
+INFO  14:32:42,945 - #26 [
+INFO  14:32:42,945 - #27 ]
+INFO  14:32:42,945 - #20 ,
+INFO  14:32:42,945 - #48 a
+INFO  14:32:42,945 - #20 ,
+INFO  14:32:42,945 - #48 b
+INFO  14:32:42,946 - #18 ;
+INFO  14:32:42,946 - #24 {
+INFO  14:32:42,946 - #5 void
+INFO  14:32:42,947 - #48 main
+INFO  14:32:42,947 - #22 (
+INFO  14:32:42,947 - #23 )
+INFO  14:32:42,948 - #48 int
+INFO  14:32:42,948 - #48 bodovi
+INFO  14:32:42,948 - #18 ;
+INFO  14:32:42,949 - #48 bool
+INFO  14:32:42,949 - #48 bt
+INFO  14:32:42,949 - #18 ;
+INFO  14:32:42,949 - #24 {
+INFO  14:32:42,949 - #25 }
+INFO  14:32:42,950 - #25 }
+INFO  14:32:42,960 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      ConstDeclarations(
+        ConstDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            MultipleConst(
+             nula
+              NumConst(
+               0
+              ) [NumConst]
+              SingleConst(
+               jedan
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [SingleConst]
+            ) [MultipleConst]
+          ) [ConstDecl]
+        ) [ConstDeclarations]
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          SingleConst(
+           slovo
+            CharConst(
+             c
+            ) [CharConst]
+          ) [SingleConst]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConst(
+         jedan
+          NumConst(
+           1
+          ) [NumConst]
+        ) [SingleConst]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               bodovi
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVar(
+            Variable(
+             bt
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 14:32:42,964 - Konstanta jedan je vec definisana. na liniji 5
+ERROR 14:32:42,972 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 14:32:42,972 - Funkcija main nije definisana. na liniji 1
+INFO  14:32:42,972 - ===================================

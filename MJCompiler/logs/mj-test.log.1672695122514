@@ -1,0 +1,147 @@
+INFO  22:26:44,053 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:26:44,086 - #2 program
+INFO  22:26:44,086 - #48 oporavak_od_greske
+INFO  22:26:44,086 - #9 const
+INFO  22:26:44,087 - #48 int
+INFO  22:26:44,087 - #48 nula
+INFO  22:26:44,087 - #35 =
+INFO  22:26:44,087 - #45 0
+INFO  22:26:44,087 - #18 ;
+INFO  22:26:44,087 - #9 const
+INFO  22:26:44,088 - #48 int
+INFO  22:26:44,088 - #48 jedan
+INFO  22:26:44,088 - #35 =
+INFO  22:26:44,088 - #45 1
+INFO  22:26:44,088 - #18 ;
+INFO  22:26:44,088 - #9 const
+INFO  22:26:44,088 - #48 int
+INFO  22:26:44,088 - #48 pet
+INFO  22:26:44,088 - #35 =
+INFO  22:26:44,088 - #45 5
+INFO  22:26:44,089 - #18 ;
+INFO  22:26:44,089 - #48 int
+INFO  22:26:44,089 - #48 niz
+INFO  22:26:44,089 - #26 [
+INFO  22:26:44,089 - #27 ]
+INFO  22:26:44,089 - #20 ,
+INFO  22:26:44,089 - #48 niz2
+INFO  22:26:44,089 - #26 [
+INFO  22:26:44,089 - #27 ]
+INFO  22:26:44,089 - #40 +
+ERROR 22:26:44,089 - 
+Sintaksna greska na liniji 7
+INFO  22:26:44,089 - #20 ,
+INFO  22:26:44,089 - #48 a
+INFO  22:26:44,089 - #20 ,
+INFO  22:26:44,090 - #48 b
+INFO  22:26:44,090 - #48 char
+INFO  22:26:44,090 - #48 nizch
+ERROR 22:26:44,090 - Izvrsen oporavak greske u definiciji globalne promenljive do , u liniji 8
+ERROR 22:26:44,090 - 
+Sintaksna greska na liniji 8
+INFO  22:26:44,090 - #26 [
+INFO  22:26:44,090 - #27 ]
+INFO  22:26:44,091 - #20 ,
+INFO  22:26:44,091 - #48 int
+INFO  22:26:44,091 - #48 greska
+INFO  22:26:44,091 - #35 =
+ERROR 22:26:44,091 - Izvrsen oporavak greske u definiciji globalne promenljive do , u liniji 8
+ERROR 22:26:44,091 - 
+Sintaksna greska na liniji 10
+INFO  22:26:44,091 - #45 2
+INFO  22:26:44,091 - #18 ;
+INFO  22:26:44,091 - #24 {
+INFO  22:26:44,091 - #5 void
+INFO  22:26:44,091 - #48 someFunc
+ERROR 22:26:44,091 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  22:26:44,092 - #22 (
+INFO  22:26:44,092 - #48 int
+INFO  22:26:44,092 - #48 a
+INFO  22:26:44,092 - #20 ,
+INFO  22:26:44,092 - #48 int
+INFO  22:26:44,092 - #48 b
+INFO  22:26:44,092 - #26 [
+INFO  22:26:44,092 - #40 +
+ERROR 22:26:44,092 - 
+Sintaksna greska na liniji 14
+INFO  22:26:44,092 - #42 *
+INFO  22:26:44,092 - #41 -
+INFO  22:26:44,092 - #27 ]
+INFO  22:26:44,092 - #20 ,
+INFO  22:26:44,092 - #48 int
+INFO  22:26:44,093 - #48 c
+INFO  22:26:44,093 - #20 ,
+ERROR 22:26:44,093 - Izvrsen oporavak greske u definiciji globalne promenljive do , u liniji 8
+INFO  22:26:44,093 - #23 )
+ERROR 22:26:44,093 - 
+Sintaksna greska na liniji 14
+INFO  22:26:44,093 - #24 {
+INFO  22:26:44,093 - #25 }
+INFO  22:26:44,093 - #5 void
+INFO  22:26:44,093 - #48 someOtherFunc
+INFO  22:26:44,093 - #22 (
+INFO  22:26:44,093 - #48 int
+INFO  22:26:44,093 - #48 a
+INFO  22:26:44,093 - #20 ,
+INFO  22:26:44,093 - #48 int
+INFO  22:26:44,093 - #48 b
+INFO  22:26:44,093 - #23 )
+ERROR 22:26:44,093 - Izvrsen oporavak greske u definiciji globalne promenljive do , u liniji 8
+ERROR 22:26:44,093 - 
+Sintaksna greska na liniji 16
+INFO  22:26:44,093 - #24 {
+INFO  22:26:44,093 - #25 }
+INFO  22:26:44,094 - #5 void
+INFO  22:26:44,094 - #48 main
+INFO  22:26:44,094 - #22 (
+INFO  22:26:44,096 - #23 )
+INFO  22:26:44,097 - #48 int
+INFO  22:26:44,097 - #48 bodovi
+INFO  22:26:44,098 - #18 ;
+INFO  22:26:44,098 - #48 bool
+INFO  22:26:44,098 - #48 bt
+INFO  22:26:44,098 - #18 ;
+ERROR 22:26:44,098 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  22:26:44,098 - #24 {
+INFO  22:26:44,099 - #48 bodovi
+INFO  22:26:44,099 - #35 =
+ERROR 22:26:44,099 - 
+Sintaksna greska na liniji 22
+INFO  22:26:44,099 - #48 dsada
+INFO  22:26:44,099 - #45 0
+INFO  22:26:44,099 - #18 ;
+INFO  22:26:44,099 - #50 if
+INFO  22:26:44,099 - #22 (
+INFO  22:26:44,099 - #48 bodovi
+INFO  22:26:44,099 - #35 =
+INFO  22:26:44,099 - #40 +
+INFO  22:26:44,099 - #35 =
+INFO  22:26:44,099 - #45 0
+INFO  22:26:44,099 - #23 )
+INFO  22:26:44,099 - #24 {
+INFO  22:26:44,099 - #48 bodovi
+INFO  22:26:44,099 - #38 ++
+INFO  22:26:44,100 - #18 ;
+INFO  22:26:44,100 - #25 }
+INFO  22:26:44,100 - #50 if
+INFO  22:26:44,100 - #22 (
+INFO  22:26:44,100 - #48 bodovi
+INFO  22:26:44,100 - #35 =
+INFO  22:26:44,100 - #40 +
+INFO  22:26:44,100 - #35 =
+INFO  22:26:44,100 - #45 0
+INFO  22:26:44,100 - #23 )
+INFO  22:26:44,100 - #24 {
+INFO  22:26:44,100 - #48 bodovi
+INFO  22:26:44,100 - #38 ++
+INFO  22:26:44,100 - #18 ;
+INFO  22:26:44,100 - #25 }
+INFO  22:26:44,100 - #51 else
+INFO  22:26:44,100 - #24 {
+INFO  22:26:44,100 - #48 bodovi
+INFO  22:26:44,100 - #39 --
+INFO  22:26:44,100 - #18 ;
+INFO  22:26:44,100 - #25 }
+INFO  22:26:44,100 - #25 }
+INFO  22:26:44,100 - #25 }
+ERROR 22:26:44,101 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 37

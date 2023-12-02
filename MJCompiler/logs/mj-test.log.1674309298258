@@ -1,0 +1,67 @@
+INFO  14:50:14,946 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:50:15,002 - #2 program
+INFO  14:50:15,002 - #48 oporavak_od_greske
+INFO  14:50:15,002 - #48 int
+INFO  14:50:15,003 - #48 niz
+INFO  14:50:15,004 - #26 [
+INFO  14:50:15,004 - #27 ]
+INFO  14:50:15,004 - #20 ,
+INFO  14:50:15,004 - #48 niz2
+INFO  14:50:15,004 - #26 [
+INFO  14:50:15,004 - #27 ]
+INFO  14:50:15,004 - #20 ,
+INFO  14:50:15,004 - #48 a
+INFO  14:50:15,004 - #20 ,
+INFO  14:50:15,004 - #48 b
+INFO  14:50:15,005 - #18 ;
+INFO  14:50:15,005 - #24 {
+INFO  14:50:15,005 - #5 void
+INFO  14:50:15,005 - #48 main
+INFO  14:50:15,005 - #22 (
+INFO  14:50:15,005 - #23 )
+INFO  14:50:15,006 - #24 {
+INFO  14:50:15,007 - #25 }
+INFO  14:50:15,007 - #25 }
+INFO  14:50:15,013 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVarsArr(
+            SingleVarArr(
+             niz
+            ) [SingleVarArr]
+           niz2
+          ) [MultipleVarsArr]
+         a
+        ) [MultipleVars]
+       b
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  14:50:15,013 - ===================================
+ERROR 14:50:15,014 - Promenljiva noObj je vec definisana. na liniji 6
+INFO  14:50:15,015 - Broj deklarisanih promenljivih u programu je: 0
+INFO  14:50:15,015 - ===================================

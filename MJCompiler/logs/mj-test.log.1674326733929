@@ -1,0 +1,91 @@
+INFO  19:44:03,772 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:44:03,891 - #2 program
+INFO  19:44:03,892 - #48 oporavak_od_greske
+INFO  19:44:03,892 - #9 const
+INFO  19:44:03,893 - #48 int
+INFO  19:44:03,893 - #48 nula
+INFO  19:44:03,893 - #35 =
+INFO  19:44:03,894 - #45 0
+INFO  19:44:03,894 - #18 ;
+INFO  19:44:03,894 - #48 int
+INFO  19:44:03,894 - #48 niz
+INFO  19:44:03,894 - #26 [
+INFO  19:44:03,895 - #27 ]
+INFO  19:44:03,895 - #20 ,
+INFO  19:44:03,896 - #48 niz2
+INFO  19:44:03,896 - #26 [
+INFO  19:44:03,896 - #27 ]
+INFO  19:44:03,896 - #20 ,
+INFO  19:44:03,896 - #48 a
+INFO  19:44:03,896 - #20 ,
+INFO  19:44:03,897 - #48 b
+INFO  19:44:03,897 - #18 ;
+INFO  19:44:03,897 - #24 {
+INFO  19:44:03,898 - #5 void
+INFO  19:44:03,898 - #48 main
+INFO  19:44:03,898 - #22 (
+INFO  19:44:03,898 - #23 )
+INFO  19:44:03,900 - #24 {
+INFO  19:44:03,900 - #25 }
+INFO  19:44:03,900 - #25 }
+INFO  19:44:03,904 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConst(
+         nula
+          NumConst(
+           0
+          ) [NumConst]
+        ) [SingleConst]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  19:44:03,907 - ===================================

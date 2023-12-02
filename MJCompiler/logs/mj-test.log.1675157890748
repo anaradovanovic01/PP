@@ -1,0 +1,220 @@
+INFO  10:31:32,335 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  10:31:32,509 - #2 program
+INFO  10:31:32,509 - #48 oporavak_od_greske
+INFO  10:31:32,510 - #9 const
+INFO  10:31:32,510 - #48 int
+INFO  10:31:32,511 - #48 nula
+INFO  10:31:32,511 - #35 =
+INFO  10:31:32,511 - #45 0
+INFO  10:31:32,512 - #20 ,
+INFO  10:31:32,512 - #48 jedan
+INFO  10:31:32,512 - #35 =
+INFO  10:31:32,512 - #45 1
+INFO  10:31:32,512 - #18 ;
+INFO  10:31:32,512 - #9 const
+INFO  10:31:32,513 - #48 char
+INFO  10:31:32,513 - #48 slovo
+INFO  10:31:32,513 - #35 =
+INFO  10:31:32,513 - #49 c
+INFO  10:31:32,513 - #18 ;
+INFO  10:31:32,514 - #9 const
+INFO  10:31:32,514 - #48 int
+INFO  10:31:32,514 - #48 jedan
+INFO  10:31:32,514 - #35 =
+INFO  10:31:32,514 - #45 1
+INFO  10:31:32,515 - #18 ;
+INFO  10:31:32,515 - #48 int
+INFO  10:31:32,515 - #48 niz
+INFO  10:31:32,515 - #26 [
+INFO  10:31:32,515 - #27 ]
+INFO  10:31:32,515 - #20 ,
+INFO  10:31:32,515 - #48 niz2
+INFO  10:31:32,515 - #26 [
+INFO  10:31:32,515 - #27 ]
+INFO  10:31:32,515 - #20 ,
+INFO  10:31:32,516 - #48 a
+INFO  10:31:32,516 - #20 ,
+INFO  10:31:32,516 - #48 b
+INFO  10:31:32,516 - #18 ;
+INFO  10:31:32,516 - #48 int
+INFO  10:31:32,517 - #48 greska
+INFO  10:31:32,517 - #35 =
+ERROR 10:31:32,518 - 
+Sintaksna greska na liniji 8
+INFO  10:31:32,518 - #45 2
+INFO  10:31:32,518 - #18 ;
+INFO  10:31:32,518 - #24 {
+INFO  10:31:32,520 - #5 void
+INFO  10:31:32,520 - #48 main
+ERROR 10:31:32,520 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  10:31:32,521 - #22 (
+INFO  10:31:32,521 - #23 )
+INFO  10:31:32,522 - #48 int
+INFO  10:31:32,522 - #48 bodovi
+INFO  10:31:32,522 - #18 ;
+INFO  10:31:32,522 - #48 bool
+INFO  10:31:32,523 - #48 bt
+INFO  10:31:32,523 - #18 ;
+INFO  10:31:32,523 - #24 {
+INFO  10:31:32,523 - #48 a
+INFO  10:31:32,523 - #35 =
+INFO  10:31:32,523 - #48 jedan
+INFO  10:31:32,524 - #18 ;
+INFO  10:31:32,524 - #48 b
+INFO  10:31:32,525 - #35 =
+INFO  10:31:32,525 - #48 nula
+INFO  10:31:32,525 - #18 ;
+INFO  10:31:32,525 - #48 a
+INFO  10:31:32,525 - #38 ++
+INFO  10:31:32,525 - #18 ;
+INFO  10:31:32,525 - #48 b
+INFO  10:31:32,525 - #35 =
+INFO  10:31:32,525 - #48 a
+INFO  10:31:32,525 - #40 +
+INFO  10:31:32,525 - #48 jedan
+INFO  10:31:32,526 - #18 ;
+INFO  10:31:32,526 - #4 return
+INFO  10:31:32,526 - #18 ;
+INFO  10:31:32,526 - #25 }
+INFO  10:31:32,527 - #25 }
+INFO  10:31:32,531 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  GlobalDeclListDerived2(
+  ) [GlobalDeclListDerived2]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               bodovi
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVar(
+            Variable(
+             bt
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclL]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                NoStmt(
+                ) [NoStmt]
+                Assignment(
+                  DesigStmtExpr(
+                    DesignatorSimple(
+                     a
+                    ) [DesignatorSimple]
+                    Assignop(
+                    ) [Assignop]
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorSimple(
+                           jedan
+                          ) [DesignatorSimple]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [DesigStmtExpr]
+                ) [Assignment]
+              ) [StmtList]
+              Assignment(
+                DesigStmtExpr(
+                  DesignatorSimple(
+                   b
+                  ) [DesignatorSimple]
+                  Assignop(
+                  ) [Assignop]
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorSimple(
+                         nula
+                        ) [DesignatorSimple]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [DesigStmtExpr]
+              ) [Assignment]
+            ) [StmtList]
+            Assignment(
+              DesigStmtInc(
+                DesignatorSimple(
+                 a
+                ) [DesignatorSimple]
+              ) [DesigStmtInc]
+            ) [Assignment]
+          ) [StmtList]
+          Assignment(
+            DesigStmtExpr(
+              DesignatorSimple(
+               b
+              ) [DesignatorSimple]
+              Assignop(
+              ) [Assignop]
+              AddExpr(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      DesignatorSimple(
+                       a
+                      ) [DesignatorSimple]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                AddopPlus(
+                ) [AddopPlus]
+                FactorTerm(
+                  Var(
+                    DesignatorSimple(
+                     jedan
+                    ) [DesignatorSimple]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [AddExpr]
+            ) [DesigStmtExpr]
+          ) [Assignment]
+        ) [StmtList]
+        ReturnNoExpr(
+        ) [ReturnNoExpr]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  10:31:32,535 - Obradjuje se funkcija main na liniji 13
+ERROR 10:31:32,535 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 10:31:32,535 - Promenljiva nije defininsana pre koriscenja na liniji 17
+ERROR 10:31:32,535 - Promenljiva nije defininsana pre koriscenja na liniji 17
+ERROR 10:31:32,535 - Promenljiva nije defininsana pre koriscenja na liniji 18
+ERROR 10:31:32,535 - Promenljiva nije defininsana pre koriscenja na liniji 18
+ERROR 10:31:32,535 - Promenljiva nije defininsana pre koriscenja na liniji 19
+ERROR 10:31:32,536 - Identifikator mora biti tipa int na liniji 19
+ERROR 10:31:32,536 - Promenljiva nije defininsana pre koriscenja na liniji 20
+ERROR 10:31:32,536 - Promenljiva nije defininsana pre koriscenja na liniji 20
+ERROR 10:31:32,536 - Promenljiva nije defininsana pre koriscenja na liniji 20
+ERROR 10:31:32,536 - Operator nije tipa int na liniji 20
+INFO  10:31:32,536 - ===================================

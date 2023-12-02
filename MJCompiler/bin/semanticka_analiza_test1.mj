@@ -1,0 +1,31 @@
+
+program test_invalid_semantic_1
+	
+	int a, niz[];
+	char c;
+	const int nula = 0;
+	nepostojeciTip t;
+	const int konst = 'c';
+
+{
+	void main(int param)
+	{
+        a = 's';
+        niz[1] = 's';
+        niz['s'] = 1;
+        a[1] = 1;
+        niz = new int['s'];
+        nula = 1;
+        a = 5 * 's';
+        a = 5 + 's';
+        a = -'s';
+        nula++;
+        c++;
+        c--;
+        print(niz);
+        [,a,] = nula;
+        [nula] = niz;
+        return 0;
+	}
+
+}

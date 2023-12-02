@@ -1,0 +1,74 @@
+INFO  19:52:07,775 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:52:07,800 - #2 program
+INFO  19:52:07,800 - #46 test_invalid_semantic_1
+INFO  19:52:07,800 - #46 char
+INFO  19:52:07,800 - #46 nula
+INFO  19:52:07,801 - #18 ;
+INFO  19:52:07,801 - #24 {
+INFO  19:52:07,801 - #5 void
+INFO  19:52:07,801 - #46 main
+INFO  19:52:07,801 - #22 (
+INFO  19:52:07,802 - #23 )
+INFO  19:52:07,802 - #24 {
+INFO  19:52:07,803 - #46 nula
+INFO  19:52:07,803 - #38 ++
+INFO  19:52:07,803 - #18 ;
+INFO  19:52:07,803 - #46 nula
+INFO  19:52:07,803 - #39 --
+INFO  19:52:07,803 - #18 ;
+INFO  19:52:07,803 - #25 }
+INFO  19:52:07,804 - #25 }
+INFO  19:52:07,807 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesigStmtInc(
+              DesignatorSimple(
+               nula
+              ) [DesignatorSimple]
+            ) [DesigStmtInc]
+          ) [Assignment]
+        ) [StmtList]
+        Assignment(
+          DesigStmtDec(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+          ) [DesigStmtDec]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 19:52:07,809 - Greska: identifikator mora biti tipa int na liniji 6
+ERROR 19:52:07,809 - Greska: identifikator mora biti tipa int na liniji 7
+INFO  19:52:07,810 - ===================================
+ERROR 19:52:07,810 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,151 @@
+INFO  20:12:49,774 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:12:49,841 - #2 program
+INFO  20:12:49,841 - #48 oporavak_od_greske
+INFO  20:12:49,841 - #9 const
+INFO  20:12:49,842 - #48 int
+INFO  20:12:49,842 - #48 nula
+INFO  20:12:49,843 - #35 =
+INFO  20:12:49,843 - #45 0
+INFO  20:12:49,843 - #20 ,
+INFO  20:12:49,843 - #48 jedan
+INFO  20:12:49,843 - #35 =
+INFO  20:12:49,843 - #45 1
+INFO  20:12:49,844 - #18 ;
+INFO  20:12:49,844 - #9 const
+INFO  20:12:49,845 - #48 char
+INFO  20:12:49,845 - #48 slovo
+INFO  20:12:49,845 - #35 =
+INFO  20:12:49,845 - #49 c
+INFO  20:12:49,846 - #18 ;
+INFO  20:12:49,846 - #48 int
+INFO  20:12:49,846 - #48 niz
+INFO  20:12:49,846 - #26 [
+INFO  20:12:49,846 - #27 ]
+INFO  20:12:49,846 - #20 ,
+INFO  20:12:49,847 - #48 niz2
+INFO  20:12:49,847 - #26 [
+INFO  20:12:49,847 - #27 ]
+INFO  20:12:49,847 - #20 ,
+INFO  20:12:49,848 - #48 a
+INFO  20:12:49,848 - #20 ,
+INFO  20:12:49,848 - #48 b
+INFO  20:12:49,848 - #18 ;
+INFO  20:12:49,848 - #24 {
+INFO  20:12:49,849 - #5 void
+INFO  20:12:49,849 - #48 main
+INFO  20:12:49,849 - #22 (
+INFO  20:12:49,849 - #23 )
+INFO  20:12:49,850 - #48 int
+INFO  20:12:49,851 - #48 bodovi
+INFO  20:12:49,851 - #18 ;
+INFO  20:12:49,851 - #48 bool
+INFO  20:12:49,851 - #48 bt
+INFO  20:12:49,851 - #18 ;
+INFO  20:12:49,851 - #24 {
+INFO  20:12:49,851 - #25 }
+INFO  20:12:49,852 - #25 }
+INFO  20:12:49,861 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          MultipleConst(
+           nula
+            NumConst(
+             0
+            ) [NumConst]
+            SingleConst(
+             jedan
+              NumConst(
+               1
+              ) [NumConst]
+            ) [SingleConst]
+          ) [MultipleConst]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        SingleConst(
+         slovo
+          CharConst(
+           c
+          ) [CharConst]
+        ) [SingleConst]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               bodovi
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVar(
+            Variable(
+             bt
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclL]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 20:12:49,864 - Nije pronadjen tip bool u tabeli simbola! 
+INFO  20:12:49,865 - ===================================

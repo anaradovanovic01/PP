@@ -1,0 +1,82 @@
+INFO  17:45:08,324 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:45:08,357 - #2 program
+INFO  17:45:08,357 - #46 test_invalid_semantic_1
+INFO  17:45:08,357 - #46 int
+INFO  17:45:08,358 - #46 nula
+INFO  17:45:08,359 - #18 ;
+INFO  17:45:08,359 - #24 {
+INFO  17:45:08,359 - #5 void
+INFO  17:45:08,359 - #46 main
+INFO  17:45:08,360 - #22 (
+INFO  17:45:08,360 - #23 )
+INFO  17:45:08,360 - #24 {
+INFO  17:45:08,361 - #46 nula
+INFO  17:45:08,361 - #35 =
+INFO  17:45:08,361 - #45 5
+INFO  17:45:08,361 - #40 +
+INFO  17:45:08,362 - #47 c
+INFO  17:45:08,362 - #18 ;
+INFO  17:45:08,363 - #25 }
+INFO  17:45:08,363 - #25 }
+INFO  17:45:08,366 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            AddExpr(
+              TermExpr(
+                FactorTerm(
+                  FactorNumConst(
+                   5
+                  ) [FactorNumConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+              AddopPlus(
+              ) [AddopPlus]
+              FactorTerm(
+                FactorCharConst(
+                 c
+                ) [FactorCharConst]
+              ) [FactorTerm]
+            ) [AddExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:45:08,368 - Operator nije tipa int na liniji 6
+ERROR 17:45:08,369 - Tipovi nisu kopatibilni na liniji 6
+INFO  17:45:08,369 - ===================================

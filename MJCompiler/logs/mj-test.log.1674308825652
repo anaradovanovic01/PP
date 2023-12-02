@@ -1,0 +1,65 @@
+INFO  14:44:19,242 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:44:19,299 - #2 program
+INFO  14:44:19,300 - #48 oporavak_od_greske
+INFO  14:44:19,300 - #48 int
+INFO  14:44:19,302 - #48 niz
+INFO  14:44:19,302 - #26 [
+INFO  14:44:19,302 - #27 ]
+INFO  14:44:19,302 - #20 ,
+INFO  14:44:19,303 - #48 niz2
+INFO  14:44:19,303 - #26 [
+INFO  14:44:19,303 - #27 ]
+INFO  14:44:19,303 - #20 ,
+INFO  14:44:19,303 - #48 a
+INFO  14:44:19,303 - #20 ,
+INFO  14:44:19,303 - #48 b
+INFO  14:44:19,303 - #18 ;
+INFO  14:44:19,303 - #24 {
+INFO  14:44:19,304 - #5 void
+INFO  14:44:19,304 - #48 main
+INFO  14:44:19,304 - #22 (
+INFO  14:44:19,304 - #23 )
+INFO  14:44:19,305 - #24 {
+INFO  14:44:19,306 - #25 }
+INFO  14:44:19,306 - #25 }
+INFO  14:44:19,307 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVarsArr(
+            SingleVarArr(
+             niz
+            ) [SingleVarArr]
+           niz2
+          ) [MultipleVarsArr]
+         a
+        ) [MultipleVars]
+       b
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoidName(
+       main
+      ) [MethodVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+INFO  14:44:19,307 - ===================================
+INFO  14:44:19,310 -  Deklarisanih promenljivih ima = 1

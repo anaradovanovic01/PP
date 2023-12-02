@@ -1,0 +1,86 @@
+INFO  19:51:12,937 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:51:12,962 - #2 program
+INFO  19:51:12,962 - #46 test_invalid_semantic_1
+INFO  19:51:12,962 - #46 int
+INFO  19:51:12,962 - #46 nula
+INFO  19:51:12,963 - #18 ;
+INFO  19:51:12,963 - #24 {
+INFO  19:51:12,963 - #5 void
+INFO  19:51:12,963 - #46 main
+INFO  19:51:12,963 - #22 (
+INFO  19:51:12,963 - #23 )
+INFO  19:51:12,964 - #24 {
+INFO  19:51:12,964 - #46 nula
+INFO  19:51:12,964 - #35 =
+INFO  19:51:12,964 - #45 5
+INFO  19:51:12,965 - #40 +
+INFO  19:51:12,965 - #47 c
+INFO  19:51:12,965 - #18 ;
+INFO  19:51:12,966 - #25 }
+INFO  19:51:12,966 - #25 }
+INFO  19:51:12,969 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            AddExpr(
+              TermExpr(
+                FactorTerm(
+                  FactorConst(
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+              AddopPlus(
+              ) [AddopPlus]
+              FactorTerm(
+                FactorConst(
+                  CharConst(
+                   c
+                  ) [CharConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [AddExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 19:51:12,972 - Greska: operator nije tipa int na liniji 6
+INFO  19:51:12,972 - ===================================
+ERROR 19:51:12,972 - Parsiranje NIJE uspesno zavrseno!

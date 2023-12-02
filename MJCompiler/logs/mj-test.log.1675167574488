@@ -1,0 +1,192 @@
+INFO  13:15:40,967 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  13:15:41,033 - #2 program
+INFO  13:15:41,033 - #48 oporavak_od_greske
+INFO  13:15:41,033 - #9 const
+INFO  13:15:41,034 - #48 int
+INFO  13:15:41,035 - #48 nula
+INFO  13:15:41,035 - #35 =
+INFO  13:15:41,035 - #45 0
+INFO  13:15:41,036 - #20 ,
+INFO  13:15:41,036 - #48 jedan
+INFO  13:15:41,036 - #35 =
+INFO  13:15:41,036 - #45 1
+INFO  13:15:41,036 - #18 ;
+INFO  13:15:41,036 - #9 const
+INFO  13:15:41,037 - #48 char
+INFO  13:15:41,037 - #48 slovo
+INFO  13:15:41,037 - #35 =
+INFO  13:15:41,037 - #49 c
+INFO  13:15:41,038 - #18 ;
+INFO  13:15:41,038 - #48 int
+INFO  13:15:41,038 - #48 niz
+INFO  13:15:41,038 - #26 [
+INFO  13:15:41,038 - #27 ]
+INFO  13:15:41,038 - #20 ,
+INFO  13:15:41,039 - #48 niz2
+INFO  13:15:41,039 - #26 [
+INFO  13:15:41,039 - #27 ]
+INFO  13:15:41,039 - #20 ,
+INFO  13:15:41,039 - #48 a
+INFO  13:15:41,039 - #20 ,
+INFO  13:15:41,039 - #48 b
+INFO  13:15:41,039 - #18 ;
+INFO  13:15:41,039 - #24 {
+INFO  13:15:41,040 - #5 void
+INFO  13:15:41,040 - #48 main
+INFO  13:15:41,040 - #22 (
+INFO  13:15:41,041 - #23 )
+INFO  13:15:41,041 - #48 int
+INFO  13:15:41,041 - #48 bodovi
+INFO  13:15:41,041 - #18 ;
+INFO  13:15:41,041 - #48 bool
+INFO  13:15:41,041 - #48 bt
+INFO  13:15:41,042 - #18 ;
+INFO  13:15:41,042 - #24 {
+INFO  13:15:41,042 - #48 niz
+INFO  13:15:41,042 - #35 =
+INFO  13:15:41,042 - #48 niz
+INFO  13:15:41,043 - #26 [
+INFO  13:15:41,043 - #45 0
+INFO  13:15:41,043 - #27 ]
+INFO  13:15:41,044 - #18 ;
+INFO  13:15:41,044 - #4 return
+INFO  13:15:41,044 - #18 ;
+INFO  13:15:41,044 - #25 }
+INFO  13:15:41,045 - #25 }
+INFO  13:15:41,050 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      ConstDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          MultipleConst(
+           nula
+            NumConst(
+             0
+            ) [NumConst]
+            SingleConst(
+             jedan
+              NumConst(
+               1
+              ) [NumConst]
+            ) [SingleConst]
+          ) [MultipleConst]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        SingleConst(
+         slovo
+          CharConst(
+           c
+          ) [CharConst]
+        ) [SingleConst]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               bodovi
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVar(
+            Variable(
+             bt
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclL]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesigStmtExpr(
+              DesignatorSimple(
+               niz
+              ) [DesignatorSimple]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorArr(
+                      DesignatorSimple(
+                       niz
+                      ) [DesignatorSimple]
+                      TermExpr(
+                        FactorTerm(
+                          FactorNumConst(
+                           0
+                          ) [FactorNumConst]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [DesignatorArr]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesigStmtExpr]
+          ) [Assignment]
+        ) [StmtList]
+        ReturnNoExpr(
+        ) [ReturnNoExpr]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 13:15:41,066 - Nije pronadjen tip bool u tabeli simbola! 

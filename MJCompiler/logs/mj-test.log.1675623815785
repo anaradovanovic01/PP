@@ -1,0 +1,74 @@
+INFO  19:56:01,198 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:56:01,222 - #2 program
+INFO  19:56:01,222 - #46 test_invalid_semantic_1
+INFO  19:56:01,223 - #46 char
+INFO  19:56:01,223 - #46 nula
+INFO  19:56:01,223 - #18 ;
+INFO  19:56:01,223 - #24 {
+INFO  19:56:01,224 - #5 void
+INFO  19:56:01,224 - #46 main
+INFO  19:56:01,224 - #22 (
+INFO  19:56:01,224 - #23 )
+INFO  19:56:01,224 - #24 {
+INFO  19:56:01,225 - #46 nula
+INFO  19:56:01,225 - #38 ++
+INFO  19:56:01,225 - #18 ;
+INFO  19:56:01,225 - #46 nula
+INFO  19:56:01,225 - #39 --
+INFO  19:56:01,225 - #18 ;
+INFO  19:56:01,226 - #25 }
+INFO  19:56:01,226 - #25 }
+INFO  19:56:01,229 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        StmtList(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesigStmtInc(
+              DesignatorSimple(
+               nula
+              ) [DesignatorSimple]
+            ) [DesigStmtInc]
+          ) [Assignment]
+        ) [StmtList]
+        Assignment(
+          DesigStmtDec(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+          ) [DesigStmtDec]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 19:56:01,232 - Greska: identifikator nula mora biti tipa int na liniji 6
+ERROR 19:56:01,232 - Greska: identifikator nula mora biti tipa int na liniji 7
+INFO  19:56:01,232 - ===================================
+ERROR 19:56:01,232 - Parsiranje NIJE uspesno zavrseno!

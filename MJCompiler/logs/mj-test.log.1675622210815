@@ -1,0 +1,73 @@
+INFO  19:35:41,012 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:35:41,039 - #2 program
+INFO  19:35:41,040 - #46 test_invalid_semantic_1
+INFO  19:35:41,040 - #46 int
+INFO  19:35:41,040 - #46 nula
+INFO  19:35:41,040 - #18 ;
+INFO  19:35:41,041 - #24 {
+INFO  19:35:41,041 - #5 void
+INFO  19:35:41,041 - #46 main
+INFO  19:35:41,041 - #22 (
+INFO  19:35:41,041 - #23 )
+INFO  19:35:41,042 - #24 {
+INFO  19:35:41,042 - #46 nula
+INFO  19:35:41,042 - #35 =
+INFO  19:35:41,043 - #47 c
+INFO  19:35:41,043 - #18 ;
+INFO  19:35:41,043 - #25 }
+INFO  19:35:41,043 - #25 }
+INFO  19:35:41,048 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorConst(
+                  CharConst(
+                   c
+                  ) [CharConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 19:35:41,050 - Greska: tipovi nisu kopatibilni na liniji 6
+INFO  19:35:41,051 - ===================================
+ERROR 19:35:41,051 - Parsiranje NIJE uspesno zavrseno!

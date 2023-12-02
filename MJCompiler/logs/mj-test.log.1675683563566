@@ -1,0 +1,235 @@
+INFO  12:36:57,528 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:36:57,559 - #2 program
+INFO  12:36:57,559 - #46 test_invalid_semantic_1
+INFO  12:36:57,559 - #46 int
+INFO  12:36:57,560 - #46 nula
+INFO  12:36:57,560 - #20 ,
+INFO  12:36:57,561 - #46 niz
+INFO  12:36:57,561 - #26 [
+INFO  12:36:57,561 - #27 ]
+INFO  12:36:57,561 - #18 ;
+INFO  12:36:57,561 - #46 nepostojeciTip
+INFO  12:36:57,561 - #46 t
+INFO  12:36:57,562 - #18 ;
+INFO  12:36:57,562 - #9 const
+INFO  12:36:57,562 - #46 int
+INFO  12:36:57,562 - #46 jedan
+INFO  12:36:57,562 - #35 =
+INFO  12:36:57,562 - #47 c
+INFO  12:36:57,562 - #18 ;
+INFO  12:36:57,562 - #24 {
+INFO  12:36:57,563 - #5 void
+INFO  12:36:57,563 - #46 main
+INFO  12:36:57,563 - #22 (
+INFO  12:36:57,563 - #23 )
+INFO  12:36:57,564 - #24 {
+INFO  12:36:57,564 - #46 nula
+INFO  12:36:57,565 - #35 =
+INFO  12:36:57,565 - #47 c
+INFO  12:36:57,565 - #18 ;
+INFO  12:36:57,566 - #46 niz
+INFO  12:36:57,566 - #26 [
+INFO  12:36:57,566 - #45 1
+INFO  12:36:57,566 - #27 ]
+INFO  12:36:57,567 - #35 =
+INFO  12:36:57,567 - #47 c
+INFO  12:36:57,567 - #18 ;
+INFO  12:36:57,567 - #46 niz
+INFO  12:36:57,567 - #26 [
+INFO  12:36:57,567 - #47 c
+INFO  12:36:57,567 - #27 ]
+INFO  12:36:57,567 - #35 =
+INFO  12:36:57,567 - #45 1
+INFO  12:36:57,567 - #18 ;
+INFO  12:36:57,567 - #46 nula
+INFO  12:36:57,568 - #26 [
+INFO  12:36:57,568 - #45 1
+INFO  12:36:57,568 - #27 ]
+INFO  12:36:57,568 - #35 =
+INFO  12:36:57,568 - #45 1
+INFO  12:36:57,568 - #18 ;
+INFO  12:36:57,568 - #25 }
+INFO  12:36:57,568 - #25 }
+INFO  12:36:57,573 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  ConstDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          MultipleVars(
+            SingleVar(
+              Variable(
+               nula
+              ) [Variable]
+            ) [SingleVar]
+            ArrVariable(
+             niz
+            ) [ArrVariable]
+          ) [MultipleVars]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      VarDecl(
+        Type(
+         nepostojeciTip
+        ) [Type]
+        SingleVar(
+          Variable(
+           t
+          ) [Variable]
+        ) [SingleVar]
+      ) [VarDecl]
+    ) [VarDeclarations]
+    ConstDecl(
+      Type(
+       int
+      ) [Type]
+      SingleConst(
+       jedan
+        CharConst(
+         c
+        ) [CharConst]
+      ) [SingleConst]
+    ) [ConstDecl]
+  ) [ConstDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              NoStmt(
+              ) [NoStmt]
+              Assignment(
+                DesigStmtExpr(
+                  DesignatorSimple(
+                   nula
+                  ) [DesignatorSimple]
+                  Assignop(
+                  ) [Assignop]
+                  TermExpr(
+                    FactorTerm(
+                      FactorConst(
+                        CharConst(
+                         c
+                        ) [CharConst]
+                      ) [FactorConst]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [DesigStmtExpr]
+              ) [Assignment]
+            ) [StmtList]
+            Assignment(
+              DesigStmtExpr(
+                DesignatorArr(
+                  DesignatorSimple(
+                   niz
+                  ) [DesignatorSimple]
+                  TermExpr(
+                    FactorTerm(
+                      FactorConst(
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [FactorConst]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [DesignatorArr]
+                Assignop(
+                ) [Assignop]
+                TermExpr(
+                  FactorTerm(
+                    FactorConst(
+                      CharConst(
+                       c
+                      ) [CharConst]
+                    ) [FactorConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [DesigStmtExpr]
+            ) [Assignment]
+          ) [StmtList]
+          Assignment(
+            DesigStmtExpr(
+              DesignatorArr(
+                DesignatorSimple(
+                 niz
+                ) [DesignatorSimple]
+                TermExpr(
+                  FactorTerm(
+                    FactorConst(
+                      CharConst(
+                       c
+                      ) [CharConst]
+                    ) [FactorConst]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [DesignatorArr]
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                FactorTerm(
+                  FactorConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesigStmtExpr]
+          ) [Assignment]
+        ) [StmtList]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorArr(
+              DesignatorSimple(
+               nula
+              ) [DesignatorSimple]
+              TermExpr(
+                FactorTerm(
+                  FactorConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesignatorArr]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 12:36:57,576 - Greska na 5: nije pronadjen tip "nepostojeciTip" u tabeli simbola
+ERROR 12:36:57,577 - Greska na 6: deklarisani tip i tip dodeljene konstante se ne poklapaju
+ERROR 12:36:57,577 - Greska na 11: tipovi nisu kopatibilni
+ERROR 12:36:57,577 - Greska na 12: tipovi nisu kopatibilni
+ERROR 12:36:57,577 - Greska na 13: izraz nije tipa int
+ERROR 12:36:57,577 - Greska na 14: promenljiva nije niz
+INFO  12:36:57,578 - ===================================
+ERROR 12:36:57,578 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,288 @@
+INFO  12:29:51,296 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:29:51,828 - #2 program
+INFO  12:29:51,828 - #48 oporavak_od_greske
+INFO  12:29:51,828 - #9 const
+INFO  12:29:51,830 - #48 int
+INFO  12:29:51,830 - #48 nula
+INFO  12:29:51,859 - #35 =
+INFO  12:29:51,859 - #45 0
+INFO  12:29:51,860 - #20 ,
+INFO  12:29:51,860 - #48 jedan
+INFO  12:29:51,860 - #35 =
+INFO  12:29:51,860 - #45 1
+INFO  12:29:51,861 - #18 ;
+INFO  12:29:51,861 - #9 const
+INFO  12:29:51,863 - #48 char
+INFO  12:29:51,864 - #48 slovo
+INFO  12:29:51,864 - #35 =
+INFO  12:29:51,864 - #49 c
+INFO  12:29:51,865 - #18 ;
+INFO  12:29:51,865 - #9 const
+INFO  12:29:51,866 - #48 int
+INFO  12:29:51,866 - #48 jedan
+INFO  12:29:51,866 - #35 =
+INFO  12:29:51,866 - #45 1
+INFO  12:29:51,866 - #18 ;
+INFO  12:29:51,866 - #48 int
+INFO  12:29:51,867 - #48 niz
+INFO  12:29:51,867 - #26 [
+INFO  12:29:51,867 - #27 ]
+INFO  12:29:51,867 - #20 ,
+INFO  12:29:51,868 - #48 niz2
+INFO  12:29:51,868 - #26 [
+INFO  12:29:51,868 - #27 ]
+INFO  12:29:51,868 - #20 ,
+INFO  12:29:51,868 - #48 a
+INFO  12:29:51,869 - #20 ,
+INFO  12:29:51,869 - #48 b
+INFO  12:29:51,869 - #18 ;
+INFO  12:29:51,869 - #24 {
+INFO  12:29:51,871 - #5 void
+INFO  12:29:51,871 - #48 main
+INFO  12:29:51,871 - #22 (
+INFO  12:29:51,871 - #23 )
+INFO  12:29:51,873 - #48 int
+INFO  12:29:51,874 - #48 bodovi
+INFO  12:29:51,874 - #18 ;
+INFO  12:29:51,875 - #48 bool
+INFO  12:29:51,875 - #48 bt
+INFO  12:29:51,875 - #18 ;
+INFO  12:29:51,875 - #24 {
+INFO  12:29:51,875 - #48 a
+INFO  12:29:51,876 - #35 =
+INFO  12:29:51,876 - #48 jedan
+INFO  12:29:51,877 - #18 ;
+INFO  12:29:51,878 - #48 b
+INFO  12:29:51,878 - #35 =
+INFO  12:29:51,879 - #48 nula
+INFO  12:29:51,879 - #18 ;
+INFO  12:29:51,879 - #48 a
+INFO  12:29:51,879 - #38 ++
+INFO  12:29:51,879 - #18 ;
+INFO  12:29:51,879 - #48 b
+INFO  12:29:51,879 - #35 =
+INFO  12:29:51,880 - #48 a
+INFO  12:29:51,880 - #40 +
+INFO  12:29:51,880 - #48 jedan
+INFO  12:29:51,881 - #18 ;
+INFO  12:29:51,882 - #48 nula
+INFO  12:29:51,882 - #38 ++
+INFO  12:29:51,882 - #18 ;
+INFO  12:29:51,882 - #4 return
+INFO  12:29:51,882 - #18 ;
+INFO  12:29:51,882 - #25 }
+INFO  12:29:51,883 - #25 }
+INFO  12:29:51,889 - ProgramWithMethods(
+  ProgName(
+   oporavak_od_greske
+  ) [ProgName]
+  VarDeclarations(
+    ConstDeclarations(
+      ConstDeclarations(
+        ConstDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            MultipleConst(
+             nula
+              NumConst(
+               0
+              ) [NumConst]
+              SingleConst(
+               jedan
+                NumConst(
+                 1
+                ) [NumConst]
+              ) [SingleConst]
+            ) [MultipleConst]
+          ) [ConstDecl]
+        ) [ConstDeclarations]
+        ConstDecl(
+          Type(
+           char
+          ) [Type]
+          SingleConst(
+           slovo
+            CharConst(
+             c
+            ) [CharConst]
+          ) [SingleConst]
+        ) [ConstDecl]
+      ) [ConstDeclarations]
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConst(
+         jedan
+          NumConst(
+           1
+          ) [NumConst]
+        ) [SingleConst]
+      ) [ConstDecl]
+    ) [ConstDeclarations]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      MultipleVars(
+        MultipleVars(
+          MultipleVars(
+            SingleVar(
+              ArrVariable(
+               niz
+              ) [ArrVariable]
+            ) [SingleVar]
+            ArrVariable(
+             niz2
+            ) [ArrVariable]
+          ) [MultipleVars]
+          Variable(
+           a
+          ) [Variable]
+        ) [MultipleVars]
+        Variable(
+         b
+        ) [Variable]
+      ) [MultipleVars]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclL(
+        VarDeclL(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              Variable(
+               bodovi
+              ) [Variable]
+            ) [SingleVar]
+          ) [VarDecl]
+        ) [VarDeclL]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVar(
+            Variable(
+             bt
+            ) [Variable]
+          ) [SingleVar]
+        ) [VarDecl]
+      ) [VarDeclL]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  NoStmt(
+                  ) [NoStmt]
+                  Assignment(
+                    DesigStmtExpr(
+                      DesignatorSimple(
+                       a
+                      ) [DesignatorSimple]
+                      Assignop(
+                      ) [Assignop]
+                      TermExpr(
+                        FactorTerm(
+                          Var(
+                            DesignatorSimple(
+                             jedan
+                            ) [DesignatorSimple]
+                          ) [Var]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                    ) [DesigStmtExpr]
+                  ) [Assignment]
+                ) [StmtList]
+                Assignment(
+                  DesigStmtExpr(
+                    DesignatorSimple(
+                     b
+                    ) [DesignatorSimple]
+                    Assignop(
+                    ) [Assignop]
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorSimple(
+                           nula
+                          ) [DesignatorSimple]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [DesigStmtExpr]
+                ) [Assignment]
+              ) [StmtList]
+              Assignment(
+                DesigStmtInc(
+                  DesignatorSimple(
+                   a
+                  ) [DesignatorSimple]
+                ) [DesigStmtInc]
+              ) [Assignment]
+            ) [StmtList]
+            Assignment(
+              DesigStmtExpr(
+                DesignatorSimple(
+                 b
+                ) [DesignatorSimple]
+                Assignop(
+                ) [Assignop]
+                AddExpr(
+                  TermExpr(
+                    FactorTerm(
+                      Var(
+                        DesignatorSimple(
+                         a
+                        ) [DesignatorSimple]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  FactorTerm(
+                    Var(
+                      DesignatorSimple(
+                       jedan
+                      ) [DesignatorSimple]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [AddExpr]
+              ) [DesigStmtExpr]
+            ) [Assignment]
+          ) [StmtList]
+          Assignment(
+            DesigStmtInc(
+              DesignatorSimple(
+               nula
+              ) [DesignatorSimple]
+            ) [DesigStmtInc]
+          ) [Assignment]
+        ) [StmtList]
+        ReturnNoExpr(
+        ) [ReturnNoExpr]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 12:29:51,918 - Konstanta jedan je vec definisana. na liniji 5
+INFO  12:29:51,919 - Obradjuje se funkcija main na liniji 13
+ERROR 12:29:51,919 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 12:29:51,919 - Identifikator mora biti promenljiva ili polje klase na liniji 21
+INFO  12:29:51,919 - ===================================

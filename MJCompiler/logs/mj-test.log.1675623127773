@@ -1,0 +1,74 @@
+INFO  19:51:41,252 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:51:41,278 - #2 program
+INFO  19:51:41,278 - #46 test_invalid_semantic_1
+INFO  19:51:41,278 - #46 int
+INFO  19:51:41,279 - #46 nula
+INFO  19:51:41,279 - #18 ;
+INFO  19:51:41,279 - #24 {
+INFO  19:51:41,280 - #5 void
+INFO  19:51:41,280 - #46 main
+INFO  19:51:41,280 - #22 (
+INFO  19:51:41,280 - #23 )
+INFO  19:51:41,280 - #24 {
+INFO  19:51:41,280 - #46 nula
+INFO  19:51:41,281 - #35 =
+INFO  19:51:41,281 - #41 -
+INFO  19:51:41,281 - #47 c
+INFO  19:51:41,281 - #18 ;
+INFO  19:51:41,281 - #25 }
+INFO  19:51:41,282 - #25 }
+INFO  19:51:41,285 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            TermExprMinus(
+              FactorTerm(
+                FactorConst(
+                  CharConst(
+                   c
+                  ) [CharConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [TermExprMinus]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 19:51:41,288 - Greska: izraz nije tipa int na liniji 6
+INFO  19:51:41,289 - ===================================
+ERROR 19:51:41,289 - Parsiranje NIJE uspesno zavrseno!

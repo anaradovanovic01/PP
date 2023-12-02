@@ -1,0 +1,87 @@
+INFO  19:40:28,818 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:40:28,842 - #2 program
+INFO  19:40:28,842 - #46 test_invalid_semantic_1
+INFO  19:40:28,842 - #46 int
+INFO  19:40:28,843 - #46 nula
+INFO  19:40:28,843 - #18 ;
+INFO  19:40:28,843 - #24 {
+INFO  19:40:28,844 - #5 void
+INFO  19:40:28,844 - #46 main
+INFO  19:40:28,844 - #22 (
+INFO  19:40:28,844 - #23 )
+INFO  19:40:28,844 - #24 {
+INFO  19:40:28,845 - #46 nula
+INFO  19:40:28,845 - #26 [
+INFO  19:40:28,845 - #45 1
+INFO  19:40:28,845 - #27 ]
+INFO  19:40:28,845 - #35 =
+INFO  19:40:28,845 - #45 1
+INFO  19:40:28,846 - #18 ;
+INFO  19:40:28,846 - #25 }
+INFO  19:40:28,846 - #25 }
+INFO  19:40:28,850 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorArr(
+              DesignatorSimple(
+               nula
+              ) [DesignatorSimple]
+              TermExpr(
+                FactorTerm(
+                  FactorConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesignatorArr]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 19:40:28,852 - Greska: promenljiva nije niz na liniji 6
+INFO  19:40:28,852 - ===================================
+ERROR 19:40:28,852 - Parsiranje NIJE uspesno zavrseno!

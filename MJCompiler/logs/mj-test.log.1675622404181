@@ -1,0 +1,89 @@
+INFO  19:38:33,095 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:38:33,123 - #2 program
+INFO  19:38:33,123 - #46 test_invalid_semantic_1
+INFO  19:38:33,123 - #46 int
+INFO  19:38:33,124 - #46 nula
+INFO  19:38:33,124 - #26 [
+INFO  19:38:33,124 - #27 ]
+INFO  19:38:33,124 - #18 ;
+INFO  19:38:33,125 - #24 {
+INFO  19:38:33,125 - #5 void
+INFO  19:38:33,125 - #46 main
+INFO  19:38:33,125 - #22 (
+INFO  19:38:33,125 - #23 )
+INFO  19:38:33,126 - #24 {
+INFO  19:38:33,126 - #46 nula
+INFO  19:38:33,126 - #26 [
+INFO  19:38:33,126 - #47 c
+INFO  19:38:33,126 - #27 ]
+INFO  19:38:33,127 - #35 =
+INFO  19:38:33,127 - #45 1
+INFO  19:38:33,127 - #18 ;
+INFO  19:38:33,128 - #25 }
+INFO  19:38:33,128 - #25 }
+INFO  19:38:33,132 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        ArrVariable(
+         nula
+        ) [ArrVariable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorArr(
+              DesignatorSimple(
+               nula
+              ) [DesignatorSimple]
+              TermExpr(
+                FactorTerm(
+                  FactorConst(
+                    CharConst(
+                     c
+                    ) [CharConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesignatorArr]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorConst(
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [FactorConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 19:38:33,134 - Greska: izraz nije tipa int na liniji 6
+INFO  19:38:33,135 - ===================================
+ERROR 19:38:33,135 - Parsiranje NIJE uspesno zavrseno!

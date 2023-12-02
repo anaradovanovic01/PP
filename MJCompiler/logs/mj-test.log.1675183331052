@@ -1,0 +1,82 @@
+INFO  17:41:31,520 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:41:31,550 - #2 program
+INFO  17:41:31,550 - #46 test_invalid_semantic_1
+INFO  17:41:31,550 - #46 int
+INFO  17:41:31,550 - #46 nula
+INFO  17:41:31,550 - #18 ;
+INFO  17:41:31,550 - #24 {
+INFO  17:41:31,551 - #5 void
+INFO  17:41:31,551 - #46 main
+INFO  17:41:31,551 - #22 (
+INFO  17:41:31,551 - #23 )
+INFO  17:41:31,551 - #24 {
+INFO  17:41:31,552 - #46 nula
+INFO  17:41:31,553 - #26 [
+INFO  17:41:31,553 - #45 1
+INFO  17:41:31,553 - #27 ]
+INFO  17:41:31,553 - #35 =
+INFO  17:41:31,553 - #45 1
+INFO  17:41:31,553 - #18 ;
+INFO  17:41:31,553 - #25 }
+INFO  17:41:31,554 - #25 }
+INFO  17:41:31,559 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorArr(
+              DesignatorSimple(
+               nula
+              ) [DesignatorSimple]
+              TermExpr(
+                FactorTerm(
+                  FactorNumConst(
+                   1
+                  ) [FactorNumConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [DesignatorArr]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              FactorTerm(
+                FactorNumConst(
+                 1
+                ) [FactorNumConst]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:41:31,561 - Promenljiva nije niz na liniji 6
+INFO  17:41:31,561 - ===================================

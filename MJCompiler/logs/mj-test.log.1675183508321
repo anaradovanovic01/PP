@@ -1,0 +1,80 @@
+INFO  17:44:02,431 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:44:02,469 - #2 program
+INFO  17:44:02,469 - #46 test_invalid_semantic_1
+INFO  17:44:02,469 - #46 int
+INFO  17:44:02,470 - #46 nula
+INFO  17:44:02,470 - #18 ;
+INFO  17:44:02,472 - #24 {
+INFO  17:44:02,472 - #5 void
+INFO  17:44:02,472 - #46 main
+INFO  17:44:02,472 - #22 (
+INFO  17:44:02,472 - #23 )
+INFO  17:44:02,473 - #24 {
+INFO  17:44:02,473 - #46 nula
+INFO  17:44:02,474 - #35 =
+INFO  17:44:02,474 - #45 5
+INFO  17:44:02,475 - #42 *
+INFO  17:44:02,475 - #47 c
+INFO  17:44:02,476 - #18 ;
+INFO  17:44:02,476 - #25 }
+INFO  17:44:02,476 - #25 }
+INFO  17:44:02,482 - ProgramWithMethods(
+  ProgName(
+   test_invalid_semantic_1
+  ) [ProgName]
+  VarDeclarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      SingleVar(
+        Variable(
+         nula
+        ) [Variable]
+      ) [SingleVar]
+    ) [VarDecl]
+  ) [VarDeclarations]
+  OneMethodDecl(
+    MethodDecl(
+      MethodVoid(
+       main
+      ) [MethodVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesigStmtExpr(
+            DesignatorSimple(
+             nula
+            ) [DesignatorSimple]
+            Assignop(
+            ) [Assignop]
+            TermExpr(
+              MulTerm(
+                FactorTerm(
+                  FactorNumConst(
+                   5
+                  ) [FactorNumConst]
+                ) [FactorTerm]
+                MulopMult(
+                ) [MulopMult]
+                FactorCharConst(
+                 c
+                ) [FactorCharConst]
+              ) [MulTerm]
+            ) [TermExpr]
+          ) [DesigStmtExpr]
+        ) [Assignment]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 17:44:02,485 - Operator nije tipa int na liniji 6
+ERROR 17:44:02,485 - Tipovi nisu kopatibilni na liniji 6
+INFO  17:44:02,485 - ===================================

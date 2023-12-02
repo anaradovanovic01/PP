@@ -1,0 +1,123 @@
+INFO  12:14:25,502 - Compiling source file: D:\Faks\7. semestar\PP1\Projekat\Pocetni projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:14:25,544 - #2 program
+INFO  12:14:25,544 - #46 MJProgram
+INFO  12:14:25,544 - #46 int
+INFO  12:14:25,545 - #46 x
+INFO  12:14:25,545 - #35 =
+ERROR 12:14:25,545 - 
+Sintaksna greska na liniji 2
+INFO  12:14:25,545 - #20 ,
+INFO  12:14:25,546 - #46 y
+INFO  12:14:25,546 - #18 ;
+INFO  12:14:25,546 - #24 {
+INFO  12:14:25,546 - #46 int
+INFO  12:14:25,546 - #46 main
+ERROR 12:14:25,546 - Izvrsen oporavak greske u definiciji globalne promenljive do ; u liniji 8
+INFO  12:14:25,563 - #22 (
+INFO  12:14:25,564 - #23 )
+INFO  12:14:25,564 - #24 {
+INFO  12:14:25,564 - #3 print
+INFO  12:14:25,565 - #22 (
+INFO  12:14:25,565 - #45 1
+INFO  12:14:25,566 - #23 )
+INFO  12:14:25,566 - #18 ;
+INFO  12:14:25,566 - #46 x
+INFO  12:14:25,566 - #35 =
+INFO  12:14:25,566 - #46 y
+INFO  12:14:25,566 - #40 +
+INFO  12:14:25,566 - #45 5
+INFO  12:14:25,567 - #18 ;
+INFO  12:14:25,567 - #3 print
+INFO  12:14:25,568 - #22 (
+INFO  12:14:25,568 - #45 2
+INFO  12:14:25,568 - #23 )
+INFO  12:14:25,568 - #18 ;
+INFO  12:14:25,568 - #25 }
+INFO  12:14:25,568 - #25 }
+INFO  12:14:25,574 - ProgramWithMethods(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  GlobalDeclListDerived2(
+  ) [GlobalDeclListDerived2]
+  OneMethodDecl(
+    MethodDecl(
+      MethodNotVoid(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodNotVoid]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            PrintStmt(
+              TermExpr(
+                FactorTerm(
+                  FactorConst(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [PrintStmt]
+          ) [StmtList]
+          Assignment(
+            DesigStmtExpr(
+              DesignatorSimple(
+               x
+              ) [DesignatorSimple]
+              Assignop(
+              ) [Assignop]
+              AddExpr(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      DesignatorSimple(
+                       y
+                      ) [DesignatorSimple]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+                AddopPlus(
+                ) [AddopPlus]
+                FactorTerm(
+                  FactorConst(
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [FactorConst]
+                ) [FactorTerm]
+              ) [AddExpr]
+            ) [DesigStmtExpr]
+          ) [Assignment]
+        ) [StmtList]
+        PrintStmt(
+          TermExpr(
+            FactorTerm(
+              FactorConst(
+                NumConst(
+                 2
+                ) [NumConst]
+              ) [FactorConst]
+            ) [FactorTerm]
+          ) [TermExpr]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [OneMethodDecl]
+) [ProgramWithMethods]
+ERROR 12:14:25,577 - Greska na 8: promenljiva "x" nije defininsana pre koriscenja
+ERROR 12:14:25,577 - Greska na 8: promenljiva "y" nije defininsana pre koriscenja
+ERROR 12:14:25,577 - Greska na 8: operator nije tipa int
+ERROR 12:14:25,577 - Greska na 4: funkcija main mora biti tipa void
+ERROR 12:14:25,577 - Greska na 4: funkcija main nema return iskaz
+INFO  12:14:25,578 - ===================================
+ERROR 12:14:25,578 - Parsiranje NIJE uspesno zavrseno!
